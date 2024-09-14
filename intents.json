@@ -1,0 +1,3856 @@
+{
+    "intents": [
+        {
+            "tag": "greeting_english",
+            "patterns": [
+                "Hi", "Hey", "Hello"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "greeting_yoruba",
+            "patterns": [
+                "se alaafia ni", "Bawo ni"
+            ],
+            "responses": [
+                "Èmi ni bot ti arun tó jẹ́ ayérayé, báwo ni mo ṣe lè ràn ọ́ lọ́wọ́?"
+            ]
+        },
+        {
+            "tag": "Irritable Bowel Syndrome (IBS)",
+            "patterns": [
+                "Abdominal pain, bloating, constipation or diarrhea"
+            ],
+            "responses": [
+                "Irritable Bowel Syndrome (IBS)"
+            ]
+        },
+        {
+            "tag": "Aisan Ifun Irritable (IBS)",
+            "patterns": [
+                "Inu irora, bloating, àìrígbẹyà tabi gbuuru"
+            ],
+            "responses": [
+                "Aisan Ifun Irritable (IBS)"
+            ]
+        },
+        {
+            "tag": "Celiac Disease",
+            "patterns": [
+                "Abdominal pain, bloating, diarrhea"
+            ],
+            "responses": [
+                "Celiac Disease"
+            ]
+        },
+        {
+            "tag": "Celiac Arun",
+            "patterns": [
+                "Inu irora, bloating, gbuuru"
+            ],
+            "responses": [
+                "Celiac Arun"
+            ]
+        },
+        {
+            "tag": "Inflammatory Bowel Disease (Crohn's, UC)",
+            "patterns": [
+                "Abdominal pain, diarrhea, weight loss"
+            ],
+            "responses": [
+                "Inflammatory Bowel Disease (Crohn's, UC)"
+            ]
+        },
+        {
+            "tag": "Arun Ifun Ifun (Crohn's, UC)",
+            "patterns": [
+                "Inu irora, gbuuru, àdánù làìpẹ"
+            ],
+            "responses": [
+                "Arun Ifun Ifun (Crohn's, UC)"
+            ]
+        },
+        {
+            "tag": "Ankylosing Spondylitis",
+            "patterns": [
+                "Back pain, stiffness, reduced flexibility"
+            ],
+            "responses": [
+                "Ankylosing Spondylitis"
+            ]
+        },
+        {
+            "tag": "Spondylitis ankylosing",
+            "patterns": [
+                "Irora afẹyinti, lile, dinku ni irọrun"
+            ],
+            "responses": [
+                "Spondylitis ankylosing"
+            ]
+        },
+        {
+            "tag": "Macular Degeneration",
+            "patterns": [
+                "Blurred or reduced central vision"
+            ],
+            "responses": [
+                "Macular Degeneration"
+            ]
+        },
+        {
+            "tag": "Macular degeneration",
+            "patterns": [
+                "Aifọwọyi tabi dinku iran aarin"
+            ],
+            "responses": [
+                "Macular degeneration"
+            ]
+        },
+        {
+            "tag": "Diabetic Retinopathy",
+            "patterns": [
+                "Blurred vision, floaters, vision loss"
+            ],
+            "responses": [
+                "Diabetic Retinopathy"
+            ]
+        },
+        {
+            "tag": "Àtọgbẹ Retinopathy",
+            "patterns": [
+                "Oju riran, awọn floaters, pipadanu iran"
+            ],
+            "responses": [
+                "Àtọgbẹ Retinopathy"
+            ]
+        },
+        {
+            "tag": "Osteoporosis",
+            "patterns": [
+                "Bone fractures, back pain, loss of height"
+            ],
+            "responses": [
+                "Osteoporosis"
+            ]
+        },
+        {
+            "tag": "Osteoporosis",
+            "patterns": [
+                "Awọn fifọ egungun, irora ẹhin, isonu ti iga"
+            ],
+            "responses": [
+                "Osteoporosis"
+            ]
+        },
+        {
+            "tag": "Cladophialophora bantiana infection",
+            "patterns": [
+                "Brain abscesses, skin lesions, respiratory infections"
+            ],
+            "responses": [
+                "Cladophialophora bantiana infection"
+            ]
+        },
+        {
+            "tag": "Cladophialophora bantiana ikolu",
+            "patterns": [
+                "Awọn abscesses ọpọlọ, awọn ọgbẹ ara, awọn akoran ti atẹgun"
+            ],
+            "responses": [
+                "Cladophialophora bantiana ikolu"
+            ]
+        },
+        {
+            "tag": "Lyme Disease",
+            "patterns": [
+                "Bullseye rash, fever, chills, headache, fatigue, muscle and joint aches, swollen lymph nodes"
+            ],
+            "responses": [
+                "Lyme Disease"
+            ]
+        },
+        {
+            "tag": "Arun Lyme",
+            "patterns": [
+                "Ẹ̀fọ́rí, ìbànújẹ́, rírẹ̀rẹ̀gẹ̀jigẹ̀, iṣan ara àti ìrora ìsokọ́ra, àwọn ọ̀rá tí ó wú"
+            ],
+            "responses": [
+                "Arun Lyme"
+            ]
+        },
+        {
+            "tag": "Colorectal Cancer",
+            "patterns": [
+                "Changes in bowel habits, blood in stool, abdominal discomfort"
+            ],
+            "responses": [
+                "Colorectal Cancer"
+            ]
+        },
+        {
+            "tag": "Akàn Awọ",
+            "patterns": [
+                "Ayipada ninu ifun isesi, ẹjẹ ni otita, aibalẹ inu"
+            ],
+            "responses": [
+                "Akàn Awọ"
+            ]
+        },
+        {
+            "tag": "Human Coronavirus OC43",
+            "patterns": [
+                "Common cold symptoms, cough, fever, nasal congestion"
+            ],
+            "responses": [
+                "Human Coronavirus OC43"
+            ]
+        },
+        {
+            "tag": "Coronavirus OC43 ti Eniyan",
+            "patterns": [
+                "Awọn aami aisan otutu ti o wọpọ, Ikọ aláìdúró, iba, imu imu"
+            ],
+            "responses": [
+                "Coronavirus OC43 ti Eniyan"
+            ]
+        },
+        {
+            "tag": "Rotavirus",
+            "patterns": [
+                "common cold symptoms: runny or stuffy nose, sneezing, sore throat, mild cough"
+            ],
+            "responses": [
+                "Rotavirus"
+            ]
+        },
+        {
+            "tag": "Rotavirus",
+            "patterns": [
+                "awọn aami aiṣan otutu ti o wọpọ: imu imu tabi imu imu, sneezing, ọfun ọfun, Ikọ aláìdúró ìwọnba"
+            ],
+            "responses": [
+                "Rotavirus"
+            ]
+        },
+        {
+            "tag": "Aspergillus clavatus infection",
+            "patterns": [
+                "Cough, chest pain, shortness of breath, fever"
+            ],
+            "responses": [
+                "Aspergillus clavatus infection"
+            ]
+        },
+        {
+            "tag": "Aspergillus clavatus ikolu",
+            "patterns": [
+                "Ikọ aláìdúró, irora àyà, àìtó ìmí, ibà"
+            ],
+            "responses": [
+                "Aspergillus clavatus ikolu"
+            ]
+        },
+        {
+            "tag": "Aspergillus fumigatus infection",
+            "patterns": [
+                "Cough, chest pain, shortness of breath, fever, sinusitis"
+            ],
+            "responses": [
+                "Aspergillus fumigatus infection"
+            ]
+        },
+        {
+            "tag": "Aspergillus fumigatus ikolu",
+            "patterns": [
+                "Ikọ aláìdúró, àyà irora, kukuru ìmí, iba, sinusitis"
+            ],
+            "responses": [
+                "Aspergillus fumigatus ikolu"
+            ]
+        },
+        {
+            "tag": "Aspergillosis",
+            "patterns": [
+                "Cough, chest pain, shortness of breath, fever, wheezing, sinus infections"
+            ],
+            "responses": [
+                "Aspergillosis"
+            ]
+        },
+        {
+            "tag": "Aspergillosis",
+            "patterns": [
+                "Ikọ aláìdúró, àyà irora, kukuru ìmí, iba, mimi, àkóràn sinus"
+            ],
+            "responses": [
+                "Aspergillosis"
+            ]
+        },
+        {
+            "tag": "Pneumonia",
+            "patterns": [
+                "Cough, fever, chills, shortness of breath, chest pain, fatigue, nausea, vomiting, confusion"
+            ],
+            "responses": [
+                "Pneumonia"
+            ]
+        },
+        {
+            "tag": "Àìsàn òtútù àyà",
+            "patterns": [
+                "Ikọ aláìdúró, iba, otutu, mimi kuru, irora àyà, rirẹ, ríru ìgbagbogbo, iporuru"
+            ],
+            "responses": [
+                "Àìsàn òtútù àyà"
+            ]
+        },
+        {
+            "tag": "Legionnaires’ disease",
+            "patterns": [
+                "Cough, shortness of breath, high fever, muscle aches, headaches, chills, confusion, diarrhea"
+            ],
+            "responses": [
+                "Legionnaires’ disease"
+            ]
+        },
+        {
+            "tag": "Arun Legionnaires",
+            "patterns": [
+                "Ikọ aláìdúró, ìmí kuru, ibà giga, irora iṣan, orififo, otutu, idamu, gbuuru"
+            ],
+            "responses": [
+                "Arun Legionnaires"
+            ]
+        },
+        {
+            "tag": "Stachybotrys chartarum infection",
+            "patterns": [
+                "Cough, wheezing, chest tightness, eye irritation, skin rash"
+            ],
+            "responses": [
+                "Stachybotrys chartarum infection"
+            ]
+        },
+        {
+            "tag": "Stachybotrys chartarum ikolu",
+            "patterns": [
+                "Ikọ aláìdúró, mimi, wiwọ àyà, irritation oju, awọ ara"
+            ],
+            "responses": [
+                "Stachybotrys chartarum ikolu"
+            ]
+        },
+        {
+            "tag": "Respiratory Syncytial Virus (RSV) Bronchiolitis",
+            "patterns": [
+                "Cough, wheezing, difficulty breathing"
+            ],
+            "responses": [
+                "Respiratory Syncytial Virus (RSV) Bronchiolitis"
+            ]
+        },
+        {
+            "tag": "Kokoro amuṣiṣẹpọ ti atẹgun (RSV) Bronchiolitis",
+            "patterns": [
+                "Ikọ aláìdúró, mimi, iṣoro mimi"
+            ],
+            "responses": [
+                "Kokoro amuṣiṣẹpọ ti atẹgun (RSV) Bronchiolitis"
+            ]
+        },
+        {
+            "tag": "Anthrax",
+            "patterns": [
+                "Cutaneous: sores, swelling; Inhalational: fever, cough, chest discomfort; Gastrointestinal: nausea, vomiting, abdominal pain"
+            ],
+            "responses": [
+                "Anthrax"
+            ]
+        },
+        {
+            "tag": "Anthrax",
+            "patterns": [
+                "Cutaneous: egbò, wiwu; Inhalational: iba, Ikọ aláìdúró, aibalẹ àyà; Ifun inu: ríru, ìgbagbogbo, irora inu"
+            ],
+            "responses": [
+                "Anthrax"
+            ]
+        },
+        {
+            "tag": "Campylobacteriosis",
+            "patterns": [
+                "Diarrhea (often bloody), fever, abdominal cramps, nausea, vomiting, fatigue"
+            ],
+            "responses": [
+                "Campylobacteriosis"
+            ]
+        },
+        {
+            "tag": "Campylobacteriosis",
+            "patterns": [
+                "Ìgbẹ́ gbuuru (ọ̀pọ̀ ẹ̀jẹ̀ lọ́pọ̀lọpọ̀), ibà, ìríra ìgbagbogbo, àárẹ̀"
+            ],
+            "responses": [
+                "Campylobacteriosis"
+            ]
+        },
+        {
+            "tag": "Salmonellosis",
+            "patterns": [
+                "Diarrhea, fever, abdominal cramps, nausea, vomiting, headache"
+            ],
+            "responses": [
+                "Salmonellosis"
+            ]
+        },
+        {
+            "tag": "Salmonellosis",
+            "patterns": [
+                "Ìgbẹ́ gbuuru, ibà, ìríra ìgbagbogbo, ẹ̀fọ́rí"
+            ],
+            "responses": [
+                "Salmonellosis"
+            ]
+        },
+        {
+            "tag": "Astrovirus Infection",
+            "patterns": [
+                "Diarrhea, nausea, vomiting"
+            ],
+            "responses": [
+                "Astrovirus Infection"
+            ]
+        },
+        {
+            "tag": "Ikolu Astrovirus",
+            "patterns": [
+                "Ìgbẹ́, ìríra, ìgbagbogbo"
+            ],
+            "responses": [
+                "Ikolu Astrovirus"
+            ]
+        },
+        {
+            "tag": "Prostate Cancer",
+            "patterns": [
+                "Difficulty urinating, pelvic pain, blood in urine"
+            ],
+            "responses": [
+                "Prostate Cancer"
+            ]
+        },
+        {
+            "tag": "Prostate akàn",
+            "patterns": [
+                "Iṣoro ito, irora ibadi, ẹjẹ ninu ito"
+            ],
+            "responses": [
+                "Prostate akàn"
+            ]
+        },
+        {
+            "tag": "Generalized Anxiety Disorder",
+            "patterns": [
+                "Excessive worry, restlessness, irritability"
+            ],
+            "responses": [
+                "Generalized Anxiety Disorder"
+            ]
+        },
+        {
+            "tag": "Ibanujẹ Ibanujẹ Akopọ",
+            "patterns": [
+                "Àníyàn púpọ̀, àìnísinmi, ìbínú"
+            ],
+            "responses": [
+                "Ibanujẹ Ibanujẹ Akopọ"
+            ]
+        },
+        {
+            "tag": "Trachoma",
+            "patterns": [
+                "Eye discharge, eye pain, swollen eyelids, trichiasis (inward growing eyelashes), vision loss"
+            ],
+            "responses": [
+                "Trachoma"
+            ]
+        },
+        {
+            "tag": "Trachoma",
+            "patterns": [
+                "Sisọjade oju, irora oju, awọn ipenpeju wiwu, trichiasis (awọn ipenpeju ti o dagba ninu), pipadanu iran"
+            ],
+            "responses": [
+                "Trachoma"
+            ]
+        },
+        {
+            "tag": "Rosacea",
+            "patterns": [
+                "Facial redness, visible blood vessels, bumps"
+            ],
+            "responses": [
+                "Rosacea"
+            ]
+        },
+        {
+            "tag": "Rosacea",
+            "patterns": [
+                "Pupa oju, awọn ohun elo ẹjẹ ti o han, awọn bumps"
+            ],
+            "responses": [
+                "Rosacea"
+            ]
+        },
+        {
+            "tag": "Fatty Liver Disease",
+            "patterns": [
+                "Fatigue, abdominal discomfort, elevated liver enzymes"
+            ],
+            "responses": [
+                "Fatty Liver Disease"
+            ]
+        },
+        {
+            "tag": "Arun Ẹdọ Ọra",
+            "patterns": [
+                "Rirẹ, aibalẹ inu, awọn enzymu ẹdọ ti o ga"
+            ],
+            "responses": [
+                "Arun Ẹdọ Ọra"
+            ]
+        },
+        {
+            "tag": "Leukemia",
+            "patterns": [
+                "Fatigue, frequent infections, easy bruising"
+            ],
+            "responses": [
+                "Leukemia"
+            ]
+        },
+        {
+            "tag": "Aisan lukimia",
+            "patterns": [
+                "Rirẹ, awọn akoran loorekoore, ọgbẹ irọrun"
+            ],
+            "responses": [
+                "Aisan lukimia"
+            ]
+        },
+        {
+            "tag": "Chronic Hepatitis B and C",
+            "patterns": [
+                "Fatigue, jaundice, abdominal pain"
+            ],
+            "responses": [
+                "Chronic Hepatitis B and C"
+            ]
+        },
+        {
+            "tag": "Hepatitis onibaje B ati C",
+            "patterns": [
+                "Rirẹ, jaundice, irora inu"
+            ],
+            "responses": [
+                "Hepatitis onibaje B ati C"
+            ]
+        },
+        {
+            "tag": "Lupus",
+            "patterns": [
+                "Fatigue, joint pain, skin rashes"
+            ],
+            "responses": [
+                "Lupus"
+            ]
+        },
+        {
+            "tag": "Lupus",
+            "patterns": [
+                "Rirẹ, irora apapọ, awọn awọ ara"
+            ],
+            "responses": [
+                "Lupus"
+            ]
+        },
+        {
+            "tag": "Chronic Kidney Disease",
+            "patterns": [
+                "Fatigue, swelling, changes in urination"
+            ],
+            "responses": [
+                "Chronic Kidney Disease"
+            ]
+        },
+        {
+            "tag": "Arun Kidinrin Onibaje",
+            "patterns": [
+                "Rirẹ, wiwu, iyipada ninu ito"
+            ],
+            "responses": [
+                "Arun Kidinrin Onibaje"
+            ]
+        },
+        {
+            "tag": "Hypothyroidism",
+            "patterns": [
+                "Fatigue, weight gain, cold intolerance"
+            ],
+            "responses": [
+                "Hypothyroidism"
+            ]
+        },
+        {
+            "tag": "Hypothyroidism",
+            "patterns": [
+                "Rirẹ, iwuwo ere, aibikita tutu"
+            ],
+            "responses": [
+                "Hypothyroidism"
+            ]
+        },
+        {
+            "tag": "HIV/AIDS",
+            "patterns": [
+                "Fatigue, weight loss, frequent infections"
+            ],
+            "responses": [
+                "HIV/AIDS"
+            ]
+        },
+        {
+            "tag": "HIV/AIDS",
+            "patterns": [
+                "Irẹwẹsi, pipadanu iwuwo, awọn akoran loorekoore"
+            ],
+            "responses": [
+                "HIV/AIDS"
+            ]
+        },
+        {
+            "tag": "Yersiniosis",
+            "patterns": [
+                "Fever, abdominal pain, diarrhea (often bloody), joint pain"
+            ],
+            "responses": [
+                "Yersiniosis"
+            ]
+        },
+        {
+            "tag": "Yersiniosis",
+            "patterns": [
+                "Iba, irora inu, gbuuru (nigbagbogbo ẹjẹ), irora apapọ"
+            ],
+            "responses": [
+                "Yersiniosis"
+            ]
+        },
+        {
+            "tag": "Candida auris infection",
+            "patterns": [
+                "Fever, chills, bloodstream infections, organ dysfunction"
+            ],
+            "responses": [
+                "Candida auris infection"
+            ]
+        },
+        {
+            "tag": "Candida auris ikolu",
+            "patterns": [
+                "Iba, otutu, awọn akoran ẹjẹ, aiṣiṣẹ ti ara"
+            ],
+            "responses": [
+                "Candida auris ikolu"
+            ]
+        },
+        {
+            "tag": "Endocarditis",
+            "patterns": [
+                "Fever, chills, fatigue, aching joints and muscles, night sweats, shortness of breath\n"
+            ],
+            "responses": [
+                "Endocarditis"
+            ]
+        },
+        {
+            "tag": "Endocarditis",
+            "patterns": [
+                "Iba, otutu, rirẹ, awọn isẹpo ati iṣan irora, lagun alẹ, kuru mimi"
+            ],
+            "responses": [
+                "Endocarditis"
+            ]
+        },
+        {
+            "tag": "Psittacosis",
+            "patterns": [
+                "Fever, chills, headache, muscle aches, dry cough, pneumonia"
+            ],
+            "responses": [
+                "Psittacosis"
+            ]
+        },
+        {
+            "tag": "Psittacosis",
+            "patterns": [
+                "Iba, otutu, orififo, irora iṣan, Ikọ aláìdúró gbígbẹ, pneumonia"
+            ],
+            "responses": [
+                "Psittacosis"
+            ]
+        },
+        {
+            "tag": "Plague",
+            "patterns": [
+                "Fever, chills, headache, muscle aches, swollen and painful lymph nodes (buboes)"
+            ],
+            "responses": [
+                "Plague"
+            ]
+        },
+        {
+            "tag": "Arun",
+            "patterns": [
+                "Iba, otutu, orififo, irora iṣan, wiwu ati irora irora (buboes)"
+            ],
+            "responses": [
+                "Arun"
+            ]
+        },
+        {
+            "tag": "Septicemia",
+            "patterns": [
+                "Fever, chills, rapid breathing, rapid heart rate, confusion, disorientation"
+            ],
+            "responses": [
+                "Septicemia"
+            ]
+        },
+        {
+            "tag": "Septicemia",
+            "patterns": [
+                "Iba, otutu, mimi iyara, iyara ọkan, iporuru, idamu"
+            ],
+            "responses": [
+                "Septicemia"
+            ]
+        },
+        {
+            "tag": "Coccidioides infection",
+            "patterns": [
+                "Fever, cough, chest pain, chills, night sweats, fatigue, joint pain"
+            ],
+            "responses": [
+                "Coccidioides infection"
+            ]
+        },
+        {
+            "tag": "Coccidioides ikolu",
+            "patterns": [
+                "Iba, Ikọ aláìdúró, irora àyà, otutu, lagun alẹ, rirẹ, irora apapọ"
+            ],
+            "responses": [
+                "Coccidioides ikolu"
+            ]
+        },
+        {
+            "tag": "Talaromyces marneffei infection",
+            "patterns": [
+                "Fever, cough, fatigue, weight loss, skin lesions"
+            ],
+            "responses": [
+                "Talaromyces marneffei infection"
+            ]
+        },
+        {
+            "tag": "Talaromyces marneffei ikolu",
+            "patterns": [
+                "Iba, Ikọ aláìdúró, rirẹ, àdánù làìpẹ, awọn egbo ara"
+            ],
+            "responses": [
+                "Talaromyces marneffei ikolu"
+            ]
+        },
+        {
+            "tag": "Penicilliosis",
+            "patterns": [
+                "Fever, cough, fatigue, weight loss, skin lesions, lymph node swelling"
+            ],
+            "responses": [
+                "Penicilliosis"
+            ]
+        },
+        {
+            "tag": "Penicilliosis",
+            "patterns": [
+                "Iba, Ikọ aláìdúró, rirẹ, àdánù làìpẹ, awọn egbo awọ ara, ọra-ara wiwu"
+            ],
+            "responses": [
+                "Penicilliosis"
+            ]
+        },
+        {
+            "tag": "Blastomycosis",
+            "patterns": [
+                "Fever, cough, night sweats, muscle aches, chest pain, weight loss"
+            ],
+            "responses": [
+                "Blastomycosis"
+            ]
+        },
+        {
+            "tag": "Blastomycosis",
+            "patterns": [
+                "Iba, Ikọ aláìdúró, lagun alẹ, irora iṣan, irora àyà, pipadanu iwuwo"
+            ],
+            "responses": [
+                "Blastomycosis"
+            ]
+        },
+        {
+            "tag": "Coronavirus (including COVID-19)",
+            "patterns": [
+                "Fever, cough, shortness of breath, fatigue, muscle aches, sore throat, loss of taste or smell"
+            ],
+            "responses": [
+                "Coronavirus (including COVID-19)"
+            ]
+        },
+        {
+            "tag": "Coronavirus (pẹlu COVID-19)",
+            "patterns": [
+                "Iba, Ikọ aláìdúró, èémí kúrú, rirẹ, iṣan iṣan, ọfun ọfun, ipadanu itọwo tabi õrùn"
+            ],
+            "responses": [
+                "Coronavirus (pẹlu COVID-19)"
+            ]
+        },
+        {
+            "tag": "Henipavirus (Hendra virus)",
+            "patterns": [
+                "Fever, cough, sore throat, encephalitis, seizures, coma"
+            ],
+            "responses": [
+                "Henipavirus (Hendra virus)"
+            ]
+        },
+        {
+            "tag": "Henipavirus (fáírọ́ọ̀sì Hendra)",
+            "patterns": [
+                "Iba, Ikọ aláìdúró, ọfun ọfun, encephalitis, imulojiji, coma"
+            ],
+            "responses": [
+                "Henipavirus (fáírọ́ọ̀sì Hendra)"
+            ]
+        },
+        {
+            "tag": "Human Metapneumovirus Infection",
+            "patterns": [
+                "Fever, cough, wheezing, difficulty breathing"
+            ],
+            "responses": [
+                "Human Metapneumovirus Infection"
+            ]
+        },
+        {
+            "tag": "Eniyan Metapneumovirus Ikolu",
+            "patterns": [
+                "Iba, Ikọ aláìdúró, mimi, iṣoro mimi"
+            ],
+            "responses": [
+                "Eniyan Metapneumovirus Ikolu"
+            ]
+        },
+        {
+            "tag": "Pneumocystis pneumonia (PCP)",
+            "patterns": [
+                "Fever, dry cough, shortness of breath, fatigue"
+            ],
+            "responses": [
+                "Pneumocystis pneumonia (PCP)"
+            ]
+        },
+        {
+            "tag": "Pneumocystis pneumonia (PCP)",
+            "patterns": [
+                "Ìbà, Ikọ aláìdúró gbígbẹ, ìmí kuru, rirẹ"
+            ],
+            "responses": [
+                "Pneumocystis pneumonia (PCP)"
+            ]
+        },
+        {
+            "tag": "Heartland Virus",
+            "patterns": [
+                "Fever, fatigue, decreased appetite, headache, nausea"
+            ],
+            "responses": [
+                "Heartland Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Heartland",
+            "patterns": [
+                "Iba, rirẹ, ifẹkufẹ dinku, orififo, ríru"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Heartland"
+            ]
+        },
+        {
+            "tag": "Severe Fever with Thrombocytopenia",
+            "patterns": [
+                "Fever, fatigue, gastrointestinal symptoms, bleeding tendencies"
+            ],
+            "responses": [
+                "Severe Fever with Thrombocytopenia"
+            ]
+        },
+        {
+            "tag": "Iba nla pẹlu Thrombocytopenia",
+            "patterns": [
+                "Iba, rirẹ, awọn aami aisan inu ikun, awọn ifarahan ẹjẹ"
+            ],
+            "responses": [
+                "Iba nla pẹlu Thrombocytopenia"
+            ]
+        },
+        {
+            "tag": "Huaiyangshan Banyangvirus",
+            "patterns": [
+                "Fever, fatigue, gastrointestinal symptoms, thrombocytopenia"
+            ],
+            "responses": [
+                "Huaiyangshan Banyangvirus"
+            ]
+        },
+        {
+            "tag": "Huaiyangshan Banyangvirus",
+            "patterns": [
+                "Iba, rirẹ, awọn aami aisan inu ikun, thrombocytopenia"
+            ],
+            "responses": [
+                "Huaiyangshan Banyangvirus"
+            ]
+        },
+        {
+            "tag": "Simian Foamy Virus",
+            "patterns": [
+                "Fever, fatigue, lymphadenopathy, oral ulcers"
+            ],
+            "responses": [
+                "Simian Foamy Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Simian Foamy",
+            "patterns": [
+                "Iba, rirẹ, lymphadenopathy, ọgbẹ ẹnu"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Simian Foamy"
+            ]
+        },
+        {
+            "tag": "Viral Hemorrhagic Fevers",
+            "patterns": [
+                "Fever, fatigue, muscle aches, bleeding"
+            ],
+            "responses": [
+                "Viral Hemorrhagic Fevers"
+            ]
+        },
+        {
+            "tag": "Iba Ẹjẹ Agbogun",
+            "patterns": [
+                "Iba, rirẹ, irora iṣan, ẹjẹ"
+            ],
+            "responses": [
+                "Iba Ẹjẹ Agbogun"
+            ]
+        },
+        {
+            "tag": "Hantavirus Pulmonary Syndrome",
+            "patterns": [
+                "Fever, fatigue, muscle aches, shortness of breath, cough"
+            ],
+            "responses": [
+                "Hantavirus Pulmonary Syndrome"
+            ]
+        },
+        {
+            "tag": "Hantavirus Pulmonary Syndrome",
+            "patterns": [
+                "Iba, rirẹ, irora iṣan, kuru ẹmi, Ikọ aláìdúró"
+            ],
+            "responses": [
+                "Hantavirus Pulmonary Syndrome"
+            ]
+        },
+        {
+            "tag": "Hepatitis A",
+            "patterns": [
+                "Fever, fatigue, nausea, vomiting, loss of appetite, abdominal pain, dark urine, jaundice"
+            ],
+            "responses": [
+                "Hepatitis A"
+            ]
+        },
+        {
+            "tag": "Hepatitis A",
+            "patterns": [
+                "Iba, rirẹ, ríru, ìgbagbogbo, isonu ti yanilenu, irora inu, ito dudu, jaundice (awọ awọ ati oju)"
+            ],
+            "responses": [
+                "Hepatitis A"
+            ]
+        },
+        {
+            "tag": "Simian Virus 40 (SV40)",
+            "patterns": [
+                "Fever, fatigue, respiratory symptoms, potential cancer association"
+            ],
+            "responses": [
+                "Simian Virus 40 (SV40)"
+            ]
+        },
+        {
+            "tag": "Kòkòrò àrùn fáírọ́ọ̀sì Simian 40 (SV40)",
+            "patterns": [
+                "Iba, rirẹ, awọn ami atẹgun, ẹgbẹ alakan ti o pọju"
+            ],
+            "responses": [
+                "Kòkòrò àrùn fáírọ́ọ̀sì Simian 40 (SV40)"
+            ]
+        },
+        {
+            "tag": "Mononucleosis (Mono)",
+            "patterns": [
+                "Fever, fatigue, sore throat, swollen lymph nodes, rash"
+            ],
+            "responses": [
+                "Mononucleosis (Mono)"
+            ]
+        },
+        {
+            "tag": "Mononucleosis (Mono)",
+            "patterns": [
+                "Iba, rirẹ, ọfun ọfun, wiwu ọgbẹ ọgbẹ, oru sisu"
+            ],
+            "responses": [
+                "Mononucleosis (Mono)"
+            ]
+        },
+        {
+            "tag": "Seoul Virus",
+            "patterns": [
+                "Fever, headache, abdominal pain, kidney dysfunction"
+            ],
+            "responses": [
+                "Seoul Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Seoul",
+            "patterns": [
+                "Iba, orififo, irora inu, ailagbara kidinrin"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Seoul"
+            ]
+        },
+        {
+            "tag": "Borna Virus",
+            "patterns": [
+                "Fever, headache, mood changes, memory disturbances, muscle stiffness"
+            ],
+            "responses": [
+                "Borna Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Bornavirus",
+            "patterns": [
+                "Iba, orififo, iyipada iṣesi, idamu iranti, lile iṣan"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Bornavirus"
+            ]
+        },
+        {
+            "tag": "Enterovirus (including polio)",
+            "patterns": [
+                "Fever, headache, muscle aches, fatigue, nausea, vomiting, diarrhea, in severe cases paralysis (polio)"
+            ],
+            "responses": [
+                "Enterovirus (including polio)"
+            ]
+        },
+        {
+            "tag": "Enterovirus (pẹlu roparose)",
+            "patterns": [
+                "Iba, orififo, irora iṣan, rirẹ, ríru, ìgbagbogbo, igbe gbuuru, ni awọn iṣẹlẹ ti o lewu paralysis (polio)"
+            ],
+            "responses": [
+                "Enterovirus (pẹlu roparose)"
+            ]
+        },
+        {
+            "tag": "West Nile Virus",
+            "patterns": [
+                "Fever, headache, muscle aches, nausea, vomiting, diarrhea, rash, in severe cases meningitis, encephalitis"
+            ],
+            "responses": [
+                "West Nile Virus"
+            ]
+        },
+        {
+            "tag": "West Nile fáírọ́ọ̀sì",
+            "patterns": [
+                "Iba, orififo, irora iṣan, ríru, ìgbagbogbo, gbuuru, oru sisu, ni awọn iṣẹlẹ ti o buruju meningitis, encephalitis"
+            ],
+            "responses": [
+                "West Nile fáírọ́ọ̀sì"
+            ]
+        },
+        {
+            "tag": "Mumps",
+            "patterns": [
+                "Fever, headache, muscle aches, swollen salivary glands (especially parotid glands near the cheeks)"
+            ],
+            "responses": [
+                "Mumps"
+            ]
+        },
+        {
+            "tag": "Mumps",
+            "patterns": [
+                "Iba, orififo, irora iṣan, awọn keekeke salivary wú (paapaa awọn keekeke ti parotid nitosi awọn ẹrẹkẹ)"
+            ],
+            "responses": [
+                "Mumps"
+            ]
+        },
+        {
+            "tag": "Zika Virus",
+            "patterns": [
+                "Fever, headache, muscle and joint aches, red eyes, rash"
+            ],
+            "responses": [
+                "Zika Virus"
+            ]
+        },
+        {
+            "tag": "Kokoro Zika",
+            "patterns": [
+                "Iba, orififo, iṣan ati irora apapọ, oju pupa, oru sisu"
+            ],
+            "responses": [
+                "Kokoro Zika"
+            ]
+        },
+        {
+            "tag": "Duvenhage Virus",
+            "patterns": [
+                "Fever, headache, muscle pain, confusion, paralysis, hydrophobia"
+            ],
+            "responses": [
+                "Duvenhage Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Duvenhage",
+            "patterns": [
+                "Fever, headache, muscle pain, confusion, rolapa rolese, eru omi"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Duvenhage"
+            ]
+        },
+        {
+            "tag": "Encephalomyocarditis Virus",
+            "patterns": [
+                "Fever, headache, muscle pain, gastrointestinal symptoms, myocarditis"
+            ],
+            "responses": [
+                "Encephalomyocarditis Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Encephalomyocarditis",
+            "patterns": [
+                "Iba, orififo, irora iṣan, awọn aami aisan inu ikun, myocarditis"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Encephalomyocarditis"
+            ]
+        },
+        {
+            "tag": "Toscana Virus",
+            "patterns": [
+                "Fever, headache, muscle pain, neurological symptoms (meningitis, encephalitis)"
+            ],
+            "responses": [
+                "Toscana Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Toscana",
+            "patterns": [
+                "Iba, orififo, irora iṣan, awọn aami aiṣan ti iṣan (meningitis, encephalitis)"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Toscana"
+            ]
+        },
+        {
+            "tag": "Menangle Virus",
+            "patterns": [
+                "Fever, headache, muscle pain, rash"
+            ],
+            "responses": [
+                "Menangle Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Menangle",
+            "patterns": [
+                "Iba, orififo, irora iṣan, Oru oru sisu"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Menangle"
+            ]
+        },
+        {
+            "tag": "Alkhurma Hemorrhagic Fever Virus",
+            "patterns": [
+                "Fever, headache, muscle pain, vomiting, bleeding tendencies"
+            ],
+            "responses": [
+                "Alkhurma Hemorrhagic Fever Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Alkhurma Hemorrhagic",
+            "patterns": [
+                "Iba, orififo, irora iṣan, eebi, awọn ifarahan ẹjẹ"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Alkhurma Hemorrhagic"
+            ]
+        },
+        {
+            "tag": "California Encephalitis Virus",
+            "patterns": [
+                "Fever, headache, nausea, vomiting, confusion, seizures"
+            ],
+            "responses": [
+                "California Encephalitis Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì California Encephalitis",
+            "patterns": [
+                "Iba, orififo, ríru, eebi, iporuru, ijagba"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì California Encephalitis"
+            ]
+        },
+        {
+            "tag": "Dengue virus (multiple serotypes)",
+            "patterns": [
+                "Fever, headache, retro-orbital pain, myalgia, arthralgia, rash, hemorrhagic symptoms"
+            ],
+            "responses": [
+                "Dengue virus (multiple serotypes)"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì dengue (ọpọlọpọ serotypes)",
+            "patterns": [
+                "Iba, orififo, irora retro-orbital, myalgia, arthralgia, sisu, awọn aami aiṣan ẹjẹ"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì dengue (ọpọlọpọ serotypes)"
+            ]
+        },
+        {
+            "tag": "Crimean-Congo Hemorrhagic Fever",
+            "patterns": [
+                "Fever, muscle aches, dizziness, headache, nausea, vomiting, diarrhea, bleeding"
+            ],
+            "responses": [
+                "Crimean-Congo Hemorrhagic Fever"
+            ]
+        },
+        {
+            "tag": "Ìbà Ẹ̀jẹ̀ ti Crimean-Congo",
+            "patterns": [
+                "Iba, irora iṣan, dizziness, orififo, ríru, ìgbagbogbo, gbuuru, ẹjẹ"
+            ],
+            "responses": [
+                "Ìbà Ẹ̀jẹ̀ ti Crimean-Congo"
+            ]
+        },
+        {
+            "tag": "Whitewater Arroyo Virus",
+            "patterns": [
+                "Fever, muscle pain, dizziness, fatigue, bleeding tendencies"
+            ],
+            "responses": [
+                "Whitewater Arroyo Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Whitewater Arroyo",
+            "patterns": [
+                "Iba, irora iṣan, ki oyi ma koni, rirẹ, awọn ifarahan ẹjẹ"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Whitewater Arroyo"
+            ]
+        },
+        {
+            "tag": "Rheumatic fever ",
+            "patterns": [
+                "Fever, painful and swollen joints, rash, nodules under the skin, shortness of breath, fatigue"
+            ],
+            "responses": [
+                "Rheumatic fever "
+            ]
+        },
+        {
+            "tag": "Ìbà ìbànújẹ́",
+            "patterns": [
+                "Iba, irora ati awọn isẹpo wiwu, sisu, nodules labẹ awọ ara, kuru ẹmi, rirẹ\n"
+            ],
+            "responses": [
+                "Ìbà ìbànújẹ́"
+            ]
+        },
+        {
+            "tag": "Echovirus",
+            "patterns": [
+                "Fever, rash, headache, sore throat, gastrointestinal symptoms"
+            ],
+            "responses": [
+                "Echovirus"
+            ]
+        },
+        {
+            "tag": "Echovirus",
+            "patterns": [
+                "Iba, oru sisu, orififo, ọfun ọfun, awọn aami aisan inu ikun"
+            ],
+            "responses": [
+                "Echovirus"
+            ]
+        },
+        {
+            "tag": "Sindbis Virus",
+            "patterns": [
+                "Fever, rash, joint pain, headache, fatigue"
+            ],
+            "responses": [
+                "Sindbis Virus"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Sindbis",
+            "patterns": [
+                "Iba, oru sisu, irora apapọ, orififo, rirẹ"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Sindbis"
+            ]
+        },
+        {
+            "tag": "Human Herpesvirus 7 (HHV-7)",
+            "patterns": [
+                "Fever, rash, respiratory symptoms, febrile seizures"
+            ],
+            "responses": [
+                "Human Herpesvirus 7 (HHV-7)"
+            ]
+        },
+        {
+            "tag": "Herpesvirus eniyan 7 (HHV-7)",
+            "patterns": [
+                "Iba, oru sisu, awọn ami atẹgun, awọn ijagba febrile"
+            ],
+            "responses": [
+                "Herpesvirus eniyan 7 (HHV-7)"
+            ]
+        },
+        {
+            "tag": "Parechovirus",
+            "patterns": [
+                "Fever, rash, respiratory symptoms, gastrointestinal symptoms"
+            ],
+            "responses": [
+                "Parechovirus"
+            ]
+        },
+        {
+            "tag": "Parechovirus",
+            "patterns": [
+                "Iba, oru sisu, awọn ami atẹgun, awọn aami aisan inu ikun"
+            ],
+            "responses": [
+                "Parechovirus"
+            ]
+        },
+        {
+            "tag": "Kawasaki Disease (possibly triggered by viral infection)",
+            "patterns": [
+                "Fever, rash, swollen lymph nodes, red eyes"
+            ],
+            "responses": [
+                "Kawasaki Disease (possibly triggered by viral infection)"
+            ]
+        },
+        {
+            "tag": "Arun Kawasaki (o ṣee ṣe nipasẹ akoran ọlọjẹ)",
+            "patterns": [
+                "Iba, oru sisu, wiwu ọra-ara, oju pupa"
+            ],
+            "responses": [
+                "Arun Kawasaki (o ṣee ṣe nipasẹ akoran ọlọjẹ)"
+            ]
+        },
+        {
+            "tag": "Human Parvovirus B19 (Fifth Disease)",
+            "patterns": [
+                "Fever, runny nose, headache, slapped cheek rash"
+            ],
+            "responses": [
+                "Human Parvovirus B19 (Fifth Disease)"
+            ]
+        },
+        {
+            "tag": "Eniyan Parvovirus B19 (Arun Karun)",
+            "patterns": [
+                "Iba, imu ti on se omi, orififo, oru sisu ẹrẹkẹ ti a labara"
+            ],
+            "responses": [
+                "Eniyan Parvovirus B19 (Arun Karun)"
+            ]
+        },
+        {
+            "tag": "Ebola Virus Disease",
+            "patterns": [
+                "Fever, severe headache, muscle aches, weakness, diarrhea, vomiting, bleeding"
+            ],
+            "responses": [
+                "Ebola Virus Disease"
+            ]
+        },
+        {
+            "tag": "Arun fáírọ́ọ̀sì Ebola",
+            "patterns": [
+                "Iba, orififo nla, irora iṣan, ailera, gbuuru, ìgbagbogbo, ẹjẹ"
+            ],
+            "responses": [
+                "Arun fáírọ́ọ̀sì Ebola"
+            ]
+        },
+        {
+            "tag": "Dengue Fever",
+            "patterns": [
+                "Fever, severe headache, muscle and joint aches, nausea, vomiting, rash"
+            ],
+            "responses": [
+                "Dengue Fever"
+            ]
+        },
+        {
+            "tag": "Ìbà Ìbà",
+            "patterns": [
+                "Iba, orififo nla, isan ati irora apapọ, ríru, ìgbagbogbo, oru sisu"
+            ],
+            "responses": [
+                "Ìbà Ìbà"
+            ]
+        },
+        {
+            "tag": "Chikungunya Fever",
+            "patterns": [
+                "Fever, severe headache, muscle and joint aches, rash, swelling of joints"
+            ],
+            "responses": [
+                "Chikungunya Fever"
+            ]
+        },
+        {
+            "tag": "Ìbà Chikungunya",
+            "patterns": [
+                "Iba, orififo nla, iṣan ati irora apapọ, oru sisu, wiwu awọn isẹpo"
+            ],
+            "responses": [
+                "Ìbà Chikungunya"
+            ]
+        },
+        {
+            "tag": "Tularemia ",
+            "patterns": [
+                "Fever, skin ulcers, swollen lymph nodes, sore throat, mouth ulcers, pneumonia"
+            ],
+            "responses": [
+                "Tularemia "
+            ]
+        },
+        {
+            "tag": "Tularemia ",
+            "patterns": [
+                "Iba, ọgbẹ awọ ara, awọn apa ọgbẹ ti o wú, ọfun ọfun, ọgbẹ ẹnu, pneumonia"
+            ],
+            "responses": [
+                "Tularemia "
+            ]
+        },
+        {
+            "tag": "Adenovirus",
+            "patterns": [
+                "Fever, sore throat, cough, runny nose, pink eye (conjunctivitis)"
+            ],
+            "responses": [
+                "Adenovirus"
+            ]
+        },
+        {
+            "tag": "Adenovirus",
+            "patterns": [
+                "Iba, ọfun ọfun, Ikọ aláìdúró, imu imu, oju Pink (conjunctivitis)"
+            ],
+            "responses": [
+                "Adenovirus"
+            ]
+        },
+        {
+            "tag": "Coxsackievirus (Hand, Foot, Mouth)",
+            "patterns": [
+                "Fever, sore throat, painful blisters on hands/feet/mouth"
+            ],
+            "responses": [
+                "Coxsackievirus (Hand, Foot, Mouth)"
+            ]
+        },
+        {
+            "tag": "Coxsackievirus (Ọwọ, Ẹsẹ, Ẹnu)",
+            "patterns": [
+                "Iba, ọfun ọfun, roro irora lori ọwọ/ẹsẹ/ẹnu"
+            ],
+            "responses": [
+                "Coxsackievirus (Ọwọ, Ẹsẹ, Ẹnu)"
+            ]
+        },
+        {
+            "tag": "Brucellosis",
+            "patterns": [
+                "Fever, sweats, malaise, anorexia, headache, muscle pain, fatigue\n"
+            ],
+            "responses": [
+                "Brucellosis"
+            ]
+        },
+        {
+            "tag": "Brucellosis",
+            "patterns": [
+                "Iba, lagun, malaise, anorexia, orififo, irora iṣan, rirẹ"
+            ],
+            "responses": [
+                "Brucellosis"
+            ]
+        },
+        {
+            "tag": "BK Virus",
+            "patterns": [
+                "Fever, urinary symptoms, kidney dysfunction"
+            ],
+            "responses": [
+                "BK Virus"
+            ]
+        },
+        {
+            "tag": "Kòkòrò àrùn fáírọ́ọ̀sì BK",
+            "patterns": [
+                "Iba, awọn aami aiṣan ito, ailagbara kidinrin"
+            ],
+            "responses": [
+                "Kòkòrò àrùn fáírọ́ọ̀sì BK"
+            ]
+        },
+        {
+            "tag": "Lassa Fever",
+            "patterns": [
+                "Fever, weakness, headache, sore throat, muscle aches, nausea, vomiting, diarrhea, bleeding"
+            ],
+            "responses": [
+                "Lassa Fever"
+            ]
+        },
+        {
+            "tag": "Iba Lassa",
+            "patterns": [
+                "Iba, ailera, orififo, ọfun ọfun, irora iṣan, ríru, ìgbagbogbo, gbuuru, ẹjẹ"
+            ],
+            "responses": [
+                "Iba Lassa"
+            ]
+        },
+        {
+            "tag": "Paracoccidioidomycosis",
+            "patterns": [
+                "Fever, weight loss, cough, shortness of breath, skin lesions, lymph node swelling"
+            ],
+            "responses": [
+                "Paracoccidioidomycosis"
+            ]
+        },
+        {
+            "tag": "Paracoccidioidomycosis",
+            "patterns": [
+                "Iba, àdánù làìpẹ, Ikọ aláìdúró, ìmí kukuru, awọn egbo awọ ara, wiwu ọra-ara"
+            ],
+            "responses": [
+                "Paracoccidioidomycosis"
+            ]
+        },
+        {
+            "tag": "Erythrovirus",
+            "patterns": [
+                "Fifth disease (slapped cheek rash), arthritis, anemia"
+            ],
+            "responses": [
+                "Erythrovirus"
+            ]
+        },
+        {
+            "tag": "Erythrovirus",
+            "patterns": [
+                "Fifth disease (slapped cheek rash), arthritis, anemia"
+            ],
+            "responses": [
+                "Erythrovirus"
+            ]
+        },
+        {
+            "tag": "Post-Traumatic Stress Disorder (PTSD)",
+            "patterns": [
+                "Flashbacks, severe anxiety, nightmares"
+            ],
+            "responses": [
+                "Post-Traumatic Stress Disorder (PTSD)"
+            ]
+        },
+        {
+            "tag": "Arun Wahala Lẹyin-Ibalẹjẹ (PTSD)",
+            "patterns": [
+                "Flashbacks, àìdá ṣàníyàn, alaburuku"
+            ],
+            "responses": [
+                "Arun Wahala Lẹyin-Ibalẹjẹ (PTSD)"
+            ]
+        },
+        {
+            "tag": "Molluscum Contagiosum",
+            "patterns": [
+                "Flesh-colored bumps on the skin"
+            ],
+            "responses": [
+                "Molluscum Contagiosum"
+            ]
+        },
+        {
+            "tag": "Molluscum Contagiosum",
+            "patterns": [
+                "Awọn bumps awọ ara lori awọ ara"
+            ],
+            "responses": [
+                "Molluscum Contagiosum"
+            ]
+        },
+        {
+            "tag": "Human Immunodeficiency Virus (HIV)",
+            "patterns": [
+                "Flu-like symptoms in early infection, fatigue, weight loss, recurrent infections, later stages can cause AIDS"
+            ],
+            "responses": [
+                "Human Immunodeficiency Virus (HIV)"
+            ]
+        },
+        {
+            "tag": "Kokoro ajẹsara eniyan (HIV)",
+            "patterns": [
+                "Awọn aami aisan ti aisan ni ibẹrẹ ikolu, rirẹ, pipadanu iwuwo, awọn akoran ti nwaye, awọn ipele nigbamii le fa AIDS"
+            ],
+            "responses": [
+                "Kokoro ajẹsara eniyan (HIV)"
+            ]
+        },
+        {
+            "tag": "Urinary tract infections (UTIs)",
+            "patterns": [
+                "Frequent urination, painful urination, cloudy urine, strong-smelling urine, pelvic pain"
+            ],
+            "responses": [
+                "Urinary tract infections (UTIs)"
+            ]
+        },
+        {
+            "tag": "Awọn akoran ito (UTIs)",
+            "patterns": [
+                "ito loorekoore, ito irora, ito kurukuru, ito oorun ti o lagbara, irora ibadi"
+            ],
+            "responses": [
+                "Awọn akoran ito (UTIs)"
+            ]
+        },
+        {
+            "tag": "Schizophrenia",
+            "patterns": [
+                "Hallucinations, delusions, disorganized thinking"
+            ],
+            "responses": [
+                "Schizophrenia"
+            ]
+        },
+        {
+            "tag": "Schizophrenia",
+            "patterns": [
+                "Hallucinations, delusions, disorganized ero"
+            ],
+            "responses": [
+                "Schizophrenia"
+            ]
+        },
+        {
+            "tag": "Cryptococcosis",
+            "patterns": [
+                "Headache, fever, neck pain, nausea, sensitivity to light, confusion"
+            ],
+            "responses": [
+                "Cryptococcosis"
+            ]
+        },
+        {
+            "tag": "Cryptococcosis",
+            "patterns": [
+                "orififo, iba, irora ọrun, ríru, ifamọ si ina, iporuru"
+            ],
+            "responses": [
+                "Cryptococcosis"
+            ]
+        },
+        {
+            "tag": "Polycystic Kidney Disease",
+            "patterns": [
+                "High blood pressure, back or side pain, kidney stones"
+            ],
+            "responses": [
+                "Polycystic Kidney Disease"
+            ]
+        },
+        {
+            "tag": "Polycystic Àrùn Àrùn",
+            "patterns": [
+                "Iwọn ẹjẹ ti o ga, ẹhin tabi irora ẹgbẹ, awọn okuta kidinrin"
+            ],
+            "responses": [
+                "Polycystic Àrùn Àrùn"
+            ]
+        },
+        {
+            "tag": "Measles",
+            "patterns": [
+                "High fever, cough, runny nose, red, watery eyes, red, blotchy rash"
+            ],
+            "responses": [
+                "Measles"
+            ]
+        },
+        {
+            "tag": "Arun-arun",
+            "patterns": [
+                "Iba giga, Ikọ aláìdúró, imu imu, pupa, oju omi, pupa, oru sisu didi"
+            ],
+            "responses": [
+                "Arun-arun"
+            ]
+        },
+        {
+            "tag": "Leptospirosis",
+            "patterns": [
+                "High fever, headache, chills, muscle aches, vomiting, jaundice, red eyes"
+            ],
+            "responses": [
+                "Leptospirosis"
+            ]
+        },
+        {
+            "tag": "Leptospirosis",
+            "patterns": [
+                "Iba giga, orififo, otutu, irora iṣan, ìgbagbogbo, jaundice, oju pupa"
+            ],
+            "responses": [
+                "Leptospirosis"
+            ]
+        },
+        {
+            "tag": "Human Herpesvirus 6 (HHV-6)",
+            "patterns": [
+                "High fever, rash, irritability, swollen lymph nodes"
+            ],
+            "responses": [
+                "Human Herpesvirus 6 (HHV-6)"
+            ]
+        },
+        {
+            "tag": "Herpesvirus eniyan 6 (HHV-6)",
+            "patterns": [
+                "Iba ti o ga, oru sisu, irritability, wiwu ọra-ara"
+            ],
+            "responses": [
+                "Herpesvirus eniyan 6 (HHV-6)"
+            ]
+        },
+        {
+            "tag": "Q fever",
+            "patterns": [
+                "High fever, severe headache, muscle pain, chills, fatigue, cough, nausea, vomiting, diarrhea"
+            ],
+            "responses": [
+                "Q fever"
+            ]
+        },
+        {
+            "tag": "Iba Q",
+            "patterns": [
+                "Iba giga, ori fifo nla, irora iṣan, otutu, rirẹ, Ikọ aláìdúró, ríru ìgbagbogbo, gbuuru"
+            ],
+            "responses": [
+                "Iba Q"
+            ]
+        },
+        {
+            "tag": "Metabolic Syndrome",
+            "patterns": [
+                "Increased blood pressure, high blood sugar, abnormal cholesterol levels"
+            ],
+            "responses": [
+                "Metabolic Syndrome"
+            ]
+        },
+        {
+            "tag": "Ti iṣelọpọ agbara Saa",
+            "patterns": [
+                "Iwọn ẹjẹ ti o pọ si, suga ẹjẹ ti o ga, awọn ipele idaabobo awọ ajeji"
+            ],
+            "responses": [
+                "Ti iṣelọpọ agbara Saa"
+            ]
+        },
+        {
+            "tag": "Diabetes Mellitus (Type 1 and Type 2)",
+            "patterns": [
+                "Increased thirst, frequent urination, fatigue"
+            ],
+            "responses": [
+                "Diabetes Mellitus (Type 1 and Type 2)"
+            ]
+        },
+        {
+            "tag": "Àtọgbẹ mellitus (Iru 1 ati Iru 2)",
+            "patterns": [
+                "Oùngbẹ ti o pọ si, ito loorekoore, rirẹ"
+            ],
+            "responses": [
+                "Àtọgbẹ mellitus (Iru 1 ati Iru 2)"
+            ]
+        },
+        {
+            "tag": "Polycystic Ovary Syndrome (PCOS)",
+            "patterns": [
+                "Irregular periods, acne, weight gain"
+            ],
+            "responses": [
+                "Polycystic Ovary Syndrome (PCOS)"
+            ]
+        },
+        {
+            "tag": "Polycystic Ovary Syndrome (PCOS)",
+            "patterns": [
+                "Awọn akoko alaibamu, irorẹ, ere iwuwo"
+            ],
+            "responses": [
+                "Polycystic Ovary Syndrome (PCOS)"
+            ]
+        },
+        {
+            "tag": "Tinea pedis (Athlete's foot)",
+            "patterns": [
+                "Itching, burning, cracked skin, blisters, peeling skin between toes"
+            ],
+            "responses": [
+                "Tinea pedis (Athlete's foot)"
+            ]
+        },
+        {
+            "tag": "Tinea pedis (Ẹsẹ elere)",
+            "patterns": [
+                "Ìyọnu, sisun, awọ ara ti o ya, roro, awọ ara ti o yọ laarin awọn ika ẹsẹ"
+            ],
+            "responses": [
+                "Tinea pedis (Ẹsẹ elere)"
+            ]
+        },
+        {
+            "tag": "Chickenpox",
+            "patterns": [
+                "Itchy, blistering rash, fever, fatigue, loss of appetite"
+            ],
+            "responses": [
+                "Chickenpox"
+            ]
+        },
+        {
+            "tag": "Àrùn adìyẹ",
+            "patterns": [
+                "Ìyọnu, roro oru sisu, iba, rirẹ, isonu ti yanilenu"
+            ],
+            "responses": [
+                "Àrùn adìyẹ"
+            ]
+        },
+        {
+            "tag": "Malassezia furfur infection",
+            "patterns": [
+                "Itchy, flaky scalp, dandruff, scaly patches, skin discoloration"
+            ],
+            "responses": [
+                "Malassezia furfur infection"
+            ]
+        },
+        {
+            "tag": "Malassezia furfur ikolu",
+            "patterns": [
+                "Ríyọ̀, àwọ̀ àwọ̀ tí ń jó, ìríra, àwọn àwọ̀ eléèérí, àwọ̀ ara"
+            ],
+            "responses": [
+                "Malassezia furfur ikolu"
+            ]
+        },
+        {
+            "tag": "Tinea (Ringworm)",
+            "patterns": [
+                "Itchy, red, circular rash, cracked skin, hair loss in affected area"
+            ],
+            "responses": [
+                "Tinea (Ringworm)"
+            ]
+        },
+        {
+            "tag": "Tinea (Ringworm)",
+            "patterns": [
+                "Itchy, pupa, sisu ipin, awọ ti o ya, pipadanu irun ni agbegbe ti o kan"
+            ],
+            "responses": [
+                "Tinea (Ringworm)"
+            ]
+        },
+        {
+            "tag": "Tinea barbae (Barber's itch)",
+            "patterns": [
+                "Itchy, red, ring-shaped rash in beard area, hair loss"
+            ],
+            "responses": [
+                "Tinea barbae (Barber's itch)"
+            ]
+        },
+        {
+            "tag": "Tinea barbae (ìyẹn Barber)",
+            "patterns": [
+                "Itchy, pupa, sisu ti o ni iwọn oruka ni agbegbe irungbọn, pipadanu irun"
+            ],
+            "responses": [
+                "Tinea barbae (ìyẹn Barber)"
+            ]
+        },
+        {
+            "tag": "Tinea corporis (Ringworm of the body)",
+            "patterns": [
+                "Itchy, red, ring-shaped rash, clear center, raised edges"
+            ],
+            "responses": [
+                "Tinea corporis (Ringworm of the body)"
+            ]
+        },
+        {
+            "tag": "Tinea corporis (Ringworm ti ara)",
+            "patterns": [
+                "Itchy, pupa, sisu ti o ni iwọn oruka, aarin ko o, awọn egbegbe dide"
+            ],
+            "responses": [
+                "Tinea corporis (Ringworm ti ara)"
+            ]
+        },
+        {
+            "tag": "Eczema (Atopic Dermatitis)",
+            "patterns": [
+                "Itchy, red, swollen skin, dry patches"
+            ],
+            "responses": [
+                "Eczema (Atopic Dermatitis)"
+            ]
+        },
+        {
+            "tag": "Àléfọ (Atopic Dermatitis)",
+            "patterns": [
+                "Nyọ, pupa, awọ wiwu, awọn abulẹ ti o gbẹ"
+            ],
+            "responses": [
+                "Àléfọ (Atopic Dermatitis)"
+            ]
+        },
+        {
+            "tag": "Hepatitis D",
+            "patterns": [
+                "Jaundice, fatigue, abdominal pain, nausea, joint pain"
+            ],
+            "responses": [
+                "Hepatitis D"
+            ]
+        },
+        {
+            "tag": "Hepatitis D",
+            "patterns": [
+                "Jaundice, rirẹ, irora inu, ríru, irora apapọ"
+            ],
+            "responses": [
+                "Hepatitis D"
+            ]
+        },
+        {
+            "tag": "Hepatitis E",
+            "patterns": [
+                "Jaundice, fatigue, nausea, abdominal pain, dark urine"
+            ],
+            "responses": [
+                "Hepatitis E"
+            ]
+        },
+        {
+            "tag": "Hepatitis E",
+            "patterns": [
+                "Jaundice, rirẹ, ríru, irora inu, ito dudu"
+            ],
+            "responses": [
+                "Hepatitis E"
+            ]
+        },
+        {
+            "tag": "Whipple's disease",
+            "patterns": [
+                "Joint pain, diarrhea, abdominal pain, weight loss, malabsorption, fever"
+            ],
+            "responses": [
+                "Whipple's disease"
+            ]
+        },
+        {
+            "tag": "Arun Whipple",
+            "patterns": [
+                "Irora apapọ, gbuuru, irora inu, pipadanu iwuwo, malabsorption, iba"
+            ],
+            "responses": [
+                "Arun Whipple"
+            ]
+        },
+        {
+            "tag": "Osteoarthritis",
+            "patterns": [
+                "Joint pain, stiffness, reduced range of motion"
+            ],
+            "responses": [
+                "Osteoarthritis"
+            ]
+        },
+        {
+            "tag": "Osteoarthritis",
+            "patterns": [
+                "Irora apapọ, lile, idinku ti iṣipopada"
+            ],
+            "responses": [
+                "Osteoarthritis"
+            ]
+        },
+        {
+            "tag": "Rheumatoid Arthritis",
+            "patterns": [
+                "Joint pain, swelling, morning stiffness"
+            ],
+            "responses": [
+                "Rheumatoid Arthritis"
+            ]
+        },
+        {
+            "tag": "Arthritis Rheumatoid",
+            "patterns": [
+                "Irora apapọ, wiwu, lile owurọ"
+            ],
+            "responses": [
+                "Arthritis Rheumatoid"
+            ]
+        },
+        {
+            "tag": "Peripheral Artery Disease",
+            "patterns": [
+                "Leg pain while walking, numbness, cold legs or feet"
+            ],
+            "responses": [
+                "Peripheral Artery Disease"
+            ]
+        },
+        {
+            "tag": "Arun Arun Agbeegbe",
+            "patterns": [
+                "Irora ẹsẹ nigba ti nrin, numbness, awọn ẹsẹ tutu tabi ẹsẹ"
+            ],
+            "responses": [
+                "Arun Arun Agbeegbe"
+            ]
+        },
+        {
+            "tag": "Glaucoma",
+            "patterns": [
+                "Loss of peripheral vision, eye pain, blurred vision"
+            ],
+            "responses": [
+                "Glaucoma"
+            ]
+        },
+        {
+            "tag": "Glaucoma",
+            "patterns": [
+                "Pipadanu iran agbeegbe, irora oju, iran ti ko dara"
+            ],
+            "responses": [
+                "Glaucoma"
+            ]
+        },
+        {
+            "tag": "Vitiligo",
+            "patterns": [
+                "Loss of skin color, white patches"
+            ],
+            "responses": [
+                "Vitiligo"
+            ]
+        },
+        {
+            "tag": "Vitiligo",
+            "patterns": [
+                "Isonu ti awọ ara, awọn abulẹ funfun"
+            ],
+            "responses": [
+                "Vitiligo"
+            ]
+        },
+        {
+            "tag": "Breast Cancer",
+            "patterns": [
+                "Lump in the breast, changes in breast shape, nipple discharge"
+            ],
+            "responses": [
+                "Breast Cancer"
+            ]
+        },
+        {
+            "tag": "Jejere omu",
+            "patterns": [
+                "Odidi ninu igbaya, iyipada ni apẹrẹ igbaya, itusilẹ ori ọmu"
+            ],
+            "responses": [
+                "Jejere omu"
+            ]
+        },
+        {
+            "tag": "Alzheimer's Disease",
+            "patterns": [
+                "Memory loss, confusion, difficulty with speech"
+            ],
+            "responses": [
+                "Alzheimer's Disease"
+            ]
+        },
+        {
+            "tag": "Arun Alusaima",
+            "patterns": [
+                "Pipadanu iranti, iporuru, iṣoro pẹlu ọrọ sisọ"
+            ],
+            "responses": [
+                "Arun Alusaima"
+            ]
+        },
+        {
+            "tag": "Rubella (German Measles)",
+            "patterns": [
+                "Mild fever, headache, runny nose, sore throat, swollen lymph nodes, pink rash that starts on the face and spreads to the body"
+            ],
+            "responses": [
+                "Rubella (German Measles)"
+            ]
+        },
+        {
+            "tag": "Rubella (German Measles)",
+            "patterns": [
+                "Mild fever, headache, runny nose, sore throat, swollen lymph nodes, pink rash that starts on the face and spreads to the body"
+            ],
+            "responses": [
+                "Rubella (German Measles)"
+            ]
+        },
+        {
+            "tag": "Bipolar Disorder",
+            "patterns": [
+                "Mood swings, high energy episodes, depressive episodes"
+            ],
+            "responses": [
+                "Bipolar Disorder"
+            ]
+        },
+        {
+            "tag": "Arun Bipolar",
+            "patterns": [
+                "Awọn iyipada iṣesi, awọn iṣẹlẹ agbara giga, awọn iṣẹlẹ irẹwẹsi"
+            ],
+            "responses": [
+                "Arun Bipolar"
+            ]
+        },
+        {
+            "tag": "Amyotrophic Lateral Sclerosis (ALS)",
+            "patterns": [
+                "Muscle weakness, difficulty speaking, difficulty swallowing"
+            ],
+            "responses": [
+                "Amyotrophic Lateral Sclerosis (ALS)"
+            ]
+        },
+        {
+            "tag": "Amyotrophic Lateral Sclerosis (ALS)",
+            "patterns": [
+                "Ailera iṣan, iṣoro sisọ, iṣoro gbigbe"
+            ],
+            "responses": [
+                "Amyotrophic Lateral Sclerosis (ALS)"
+            ]
+        },
+        {
+            "tag": "Scytalidium dimidiatum infection",
+            "patterns": [
+                "Nail discoloration, onychomycosis, skin infections"
+            ],
+            "responses": [
+                "Scytalidium dimidiatum infection"
+            ]
+        },
+        {
+            "tag": "Scytalidium dimidiatum ikolu",
+            "patterns": [
+                "Àwọ̀ èékánná, onychomycosis, àkóràn awọ ara"
+            ],
+            "responses": [
+                "Scytalidium dimidiatum ikolu"
+            ]
+        },
+        {
+            "tag": "Conidiobolus infection",
+            "patterns": [
+                "Nasal congestion, facial swelling, subcutaneous nodules"
+            ],
+            "responses": [
+                "Conidiobolus infection"
+            ]
+        },
+        {
+            "tag": "Konidiobolus ikolu",
+            "patterns": [
+                "Imu imu, wiwu oju, awọn nodules subcutaneous"
+            ],
+            "responses": [
+                "Konidiobolus ikolu"
+            ]
+        },
+        {
+            "tag": "Rhinosporidiosis",
+            "patterns": [
+                "Nasal polyps, nosebleeds, nasal obstruction, skin lesions"
+            ],
+            "responses": [
+                "Rhinosporidiosis"
+            ]
+        },
+        {
+            "tag": "Rhinosporidiosis",
+            "patterns": [
+                "Awọn polyps imu, awọn ẹjẹ imu, idaduro imu, awọn egbo awọ ara"
+            ],
+            "responses": [
+                "Rhinosporidiosis"
+            ]
+        },
+        {
+            "tag": "Gastroenteritis (Stomach Flu)",
+            "patterns": [
+                "Nausea, vomiting, diarrhea, abdominal cramps"
+            ],
+            "responses": [
+                "Gastroenteritis (Stomach Flu)"
+            ]
+        },
+        {
+            "tag": "Gastroenteritis (aisan ikun)",
+            "patterns": [
+                "Ríru, ìgbagbogbo, gbuuru, inu inu"
+            ],
+            "responses": [
+                "Gastroenteritis (aisan ikun)"
+            ]
+        },
+        {
+            "tag": "Norovirus",
+            "patterns": [
+                "Nausea, vomiting, diarrhea, stomach pain, fever"
+            ],
+            "responses": [
+                "Norovirus"
+            ]
+        },
+        {
+            "tag": "Norovirus",
+            "patterns": [
+                "ko o ma se bi pe eyan fe bi, ki eyan ma bi, ki eyan ma ya igbe lopo lopo igba, inu riro, iba"
+            ],
+            "responses": [
+                "Norovirus"
+            ]
+        },
+        {
+            "tag": "Multiple Sclerosis",
+            "patterns": [
+                "Numbness, weakness, vision problems"
+            ],
+            "responses": [
+                "Multiple Sclerosis"
+            ]
+        },
+        {
+            "tag": "Ọpọ Sclerosis",
+            "patterns": [
+                "Numbness, ailera, awọn iṣoro iran"
+            ],
+            "responses": [
+                "Ọpọ Sclerosis"
+            ]
+        },
+        {
+            "tag": "Chlamydia",
+            "patterns": [
+                "Often asymptomatic; genital discharge, burning sensation during urination, pelvic pain"
+            ],
+            "responses": [
+                "Chlamydia"
+            ]
+        },
+        {
+            "tag": "Chlamydia",
+            "patterns": [
+                "itujade ti ara, itara jijoni lakoko ito, irora ibadi"
+            ],
+            "responses": [
+                "Chlamydia"
+            ]
+        },
+        {
+            "tag": "Candidiasis",
+            "patterns": [
+                "Oral thrush, vaginal yeast infection, diaper rash, esophagitis, systemic infections (fever, chills)"
+            ],
+            "responses": [
+                "Candidiasis"
+            ]
+        },
+        {
+            "tag": "Candidiasis",
+            "patterns": [
+                "Ẹnu ọ̀rọ̀ ẹnu, àkóràn ìwúkàrà abẹ́lẹ̀, sísun ilédìí, esophagitis, àkóràn àkóràn (ìbà, otutu)"
+            ],
+            "responses": [
+                "Candidiasis"
+            ]
+        },
+        {
+            "tag": "Candida tropicalis infection",
+            "patterns": [
+                "Oral thrush, vaginal yeast infections, bloodstream infections"
+            ],
+            "responses": [
+                "Candida tropicalis infection"
+            ]
+        },
+        {
+            "tag": "Candida tropicalis ikolu",
+            "patterns": [
+                "Ọgbẹ ẹnu, awọn akoran iwukara abẹ, awọn akoran ẹjẹ"
+            ],
+            "responses": [
+                "Candida tropicalis ikolu"
+            ]
+        },
+        {
+            "tag": "Herpes Simplex Virus Type 1 (HSV-1)",
+            "patterns": [
+                "Painful blisters and sores around the mouth, fever, body aches, swollen lymph nodes"
+            ],
+            "responses": [
+                "Herpes Simplex Virus Type 1 (HSV-1)"
+            ]
+        },
+        {
+            "tag": "fáírọ́ọ̀sì Herpes Simplex Type 1 (HSV-1)",
+            "patterns": [
+                "Awọn roro irora ati awọn egbò ni ayika ẹnu, iba, irora ara, awọn ọgbẹ ti o wú"
+            ],
+            "responses": [
+                "fáírọ́ọ̀sì Herpes Simplex Type 1 (HSV-1)"
+            ]
+        },
+        {
+            "tag": "Herpes Simplex Virus Type 2 (HSV-2)",
+            "patterns": [
+                "Painful blisters and sores on the genitals, itching, flu-like symptoms"
+            ],
+            "responses": [
+                "Herpes Simplex Virus Type 2 (HSV-2)"
+            ]
+        },
+        {
+            "tag": "Herpes Simplex Virus Type 2 (HSV-2)",
+            "patterns": [
+                "Awọn roro irora ati awọn egbò lori abẹ-ara, nyún, awọn aami aisan-aisan"
+            ],
+            "responses": [
+                "Herpes Simplex Virus Type 2 (HSV-2)"
+            ]
+        },
+        {
+            "tag": "Shingles",
+            "patterns": [
+                "Painful rash with blisters, usually on one side of the face or body, fever, fatigue"
+            ],
+            "responses": [
+                "Shingles"
+            ]
+        },
+        {
+            "tag": "Shingles",
+            "patterns": [
+                "Irora irora pẹlu awọn roro, nigbagbogbo ni ẹgbẹ kan ti oju tabi ara, iba, rirẹ"
+            ],
+            "responses": [
+                "Shingles"
+            ]
+        },
+        {
+            "tag": "Tropical ulcer",
+            "patterns": [
+                "Painful sores or ulcers on the skin, often with surrounding redness and swelling"
+            ],
+            "responses": [
+                "Tropical ulcer"
+            ]
+        },
+        {
+            "tag": "Tropical ulcer",
+            "patterns": [
+                "Awọn egbò irora tabi ọgbẹ lori awọ ara, nigbagbogbo pẹlu pupa ati wiwu agbegbe"
+            ],
+            "responses": [
+                "Tropical ulcer"
+            ]
+        },
+        {
+            "tag": "Atrial Fibrillation",
+            "patterns": [
+                "Palpitations, weakness, dizziness"
+            ],
+            "responses": [
+                "Atrial Fibrillation"
+            ]
+        },
+        {
+            "tag": "Atrial Fibrillation",
+            "patterns": [
+                "Irora, ailera, dizziness"
+            ],
+            "responses": [
+                "Atrial Fibrillation"
+            ]
+        },
+        {
+            "tag": "Interstitial Cystitis",
+            "patterns": [
+                "Pelvic pain, frequent urination, bladder pressure"
+            ],
+            "responses": [
+                "Interstitial Cystitis"
+            ]
+        },
+        {
+            "tag": "Cystitis Interstitial",
+            "patterns": [
+                "Irora ibadi, ito loorekoore, titẹ àpòòtọ"
+            ],
+            "responses": [
+                "Cystitis Interstitial"
+            ]
+        },
+        {
+            "tag": "Chronic Prostatitis",
+            "patterns": [
+                "Pelvic pain, painful urination, pain during ejaculation"
+            ],
+            "responses": [
+                "Chronic Prostatitis"
+            ]
+        },
+        {
+            "tag": "Prostatitis onibaje",
+            "patterns": [
+                "Irora ibadi, ito irora, irora nigba ejaculation"
+            ],
+            "responses": [
+                "Prostatitis onibaje"
+            ]
+        },
+        {
+            "tag": "Lung Cancer",
+            "patterns": [
+                "Persistent cough, chest pain, weight loss"
+            ],
+            "responses": [
+                "Lung Cancer"
+            ]
+        },
+        {
+            "tag": "Ẹdọfóró akàn",
+            "patterns": [
+                "Ikọ aláìdúró ti o tẹsiwaju, irora àyà, pipadanu iwuwo"
+            ],
+            "responses": [
+                "Ẹdọfóró akàn"
+            ]
+        },
+        {
+            "tag": "Chronic Bronchitis",
+            "patterns": [
+                "Persistent cough, mucus production, shortness of breath"
+            ],
+            "responses": [
+                "Chronic Bronchitis"
+            ]
+        },
+        {
+            "tag": "Onibaje Bronchitis",
+            "patterns": [
+                "Ikọ aláìdúró ti o leralera, iṣelọpọ mucus, kukuru ti ẹmi"
+            ],
+            "responses": [
+                "Onibaje Bronchitis"
+            ]
+        },
+        {
+            "tag": "Tuberculosis",
+            "patterns": [
+                "Persistent cough, weight loss, night sweats, fever, chest pain, coughing up blood"
+            ],
+            "responses": [
+                "Tuberculosis"
+            ]
+        },
+        {
+            "tag": "iko",
+            "patterns": [
+                "Ikọ aláìdúró àìdára, àdánù làìpẹ, lagun alẹ, iba, irora àyà, ikọ ẹjẹ soke"
+            ],
+            "responses": [
+                "iko"
+            ]
+        },
+        {
+            "tag": "Major Depressive Disorder",
+            "patterns": [
+                "Persistent sadness, loss of interest, fatigue"
+            ],
+            "responses": [
+                "Major Depressive Disorder"
+            ]
+        },
+        {
+            "tag": "Arun Ibanujẹ nla",
+            "patterns": [
+                "Ibanujẹ igbagbogbo, isonu ti anfani, rirẹ"
+            ],
+            "responses": [
+                "Arun Ibanujẹ nla"
+            ]
+        },
+        {
+            "tag": "Paratyphoid fever ",
+            "patterns": [
+                "Prolonged fever, weakness, loss of appetite, headache, stomach pain, diarrhea or constipation"
+            ],
+            "responses": [
+                "Paratyphoid fever "
+            ]
+        },
+        {
+            "tag": "Iba paratyphoid",
+            "patterns": [
+                "Iba gigun, ailera, isonu ti ounjẹ, orififo, irora inu, gbuuru tabi àìrígbẹyà\n"
+            ],
+            "responses": [
+                "Iba paratyphoid"
+            ]
+        },
+        {
+            "tag": "Parvovirus B19 Infection",
+            "patterns": [
+                "Rash on cheeks, arms, and legs, low-grade fever"
+            ],
+            "responses": [
+                "Parvovirus B19 Infection"
+            ]
+        },
+        {
+            "tag": "Parvovirus B19 Ikolu",
+            "patterns": [
+                "oru sisu lori awọn ẹrẹkẹ, awọn ọwọ, ati awọn ẹsẹ, iba-kekere"
+            ],
+            "responses": [
+                "Parvovirus B19 Ikolu"
+            ]
+        },
+        {
+            "tag": "Obsessive-Compulsive Disorder (OCD)",
+            "patterns": [
+                "Recurrent unwanted thoughts, repetitive behaviors"
+            ],
+            "responses": [
+                "Obsessive-Compulsive Disorder (OCD)"
+            ]
+        },
+        {
+            "tag": "Àìsàn-Àìsàn (OCD)",
+            "patterns": [
+                "Awọn ero aifẹ loorekoore, awọn ihuwasi atunwi"
+            ],
+            "responses": [
+                "Àìsàn-Àìsàn (OCD)"
+            ]
+        },
+        {
+            "tag": "Relapsing fever",
+            "patterns": [
+                "Recurring episodes of fever, headache, muscle and joint pain, nausea"
+            ],
+            "responses": [
+                "Relapsing fever"
+            ]
+        },
+        {
+            "tag": "Ìbà tí ń padà sẹ́yìn",
+            "patterns": [
+                "Awọn iṣẹlẹ ti o nwaye ti iba, orififo, iṣan ati irora apapọ, ríru"
+            ],
+            "responses": [
+                "Ìbà tí ń padà sẹ́yìn"
+            ]
+        },
+        {
+            "tag": "Psoriasis",
+            "patterns": [
+                "Red patches with scales, itching, dry skin"
+            ],
+            "responses": [
+                "Psoriasis"
+            ]
+        },
+        {
+            "tag": "Psoriasis",
+            "patterns": [
+                "Awọn abulẹ pupa pẹlu awọn irẹjẹ, nyún, awọ gbigbẹ"
+            ],
+            "responses": [
+                "Psoriasis"
+            ]
+        },
+        {
+            "tag": "Scarlet fever ",
+            "patterns": [
+                "Red rash, red lines in skin folds, flushed face, strawberry tongue, high fever, sore throat"
+            ],
+            "responses": [
+                "Scarlet fever "
+            ]
+        },
+        {
+            "tag": "Ìbà pupa",
+            "patterns": [
+                "Oju pupa, awọn ila pupa ni awọn agbo awọ ara, oju ti o fọ, ahọn iru eso didun kan, iba nla, ọfun ọgbẹ"
+            ],
+            "responses": [
+                "Ìbà pupa"
+            ]
+        },
+        {
+            "tag": "Impetigo",
+            "patterns": [
+                "Red sores, blisters, honey-colored crusts, itching"
+            ],
+            "responses": [
+                "Impetigo"
+            ]
+        },
+        {
+            "tag": "Impetigo",
+            "patterns": [
+                "Awọn egbò pupa, roro, awọn erupẹ awọ oyin, nyún"
+            ],
+            "responses": [
+                "Impetigo"
+            ]
+        },
+        {
+            "tag": "Enterovirus D68",
+            "patterns": [
+                "Respiratory illness, wheezing, asthma exacerbation, paralysis"
+            ],
+            "responses": [
+                "Enterovirus D68"
+            ]
+        },
+        {
+            "tag": "Enterovirus D68",
+            "patterns": [
+                "Aisan atẹgun, mimi, ikọ-fèé buruju, rolapa rolese"
+            ],
+            "responses": [
+                "Enterovirus D68"
+            ]
+        },
+        {
+            "tag": "Human Bocavirus",
+            "patterns": [
+                "Runny or stuffy nose, cough, fever, wheezing"
+            ],
+            "responses": [
+                "Human Bocavirus"
+            ]
+        },
+        {
+            "tag": "Eniyan Bocavirus",
+            "patterns": [
+                "Imu ti o nṣan tabi iṣu, Ikọ aláìdúró, iba, mimi"
+            ],
+            "responses": [
+                "Eniyan Bocavirus"
+            ]
+        },
+        {
+            "tag": "Common Cold",
+            "patterns": [
+                "Runny or stuffy nose, sneezing, sore throat, mild cough"
+            ],
+            "responses": [
+                "Common Cold"
+            ]
+        },
+        {
+            "tag": "Tutu ti o wọpọ",
+            "patterns": [
+                "Imu ti o nṣan tabi ti odi, sisi, ọfun ọfun, Ikọ aláìdúró ìwọnba"
+            ],
+            "responses": [
+                "Tutu ti o wọpọ"
+            ]
+        },
+        {
+            "tag": "Tinea capitis (Ringworm of the scalp)",
+            "patterns": [
+                "Scaly, itchy scalp, hair loss, black dots, swollen lymph nodes"
+            ],
+            "responses": [
+                "Tinea capitis (Ringworm of the scalp)"
+            ]
+        },
+        {
+            "tag": "Tinea capitis (Ringworm ti awọ-ori)",
+            "patterns": [
+                "Irẹjẹ, awọ-awọ ti o yun, ipadanu irun, awọn aami dudu, awọn ọmu ti o wú"
+            ],
+            "responses": [
+                "Tinea capitis (Ringworm ti awọ-ori)"
+            ]
+        },
+        {
+            "tag": "Epilepsy",
+            "patterns": [
+                "Seizures, temporary confusion, staring spells"
+            ],
+            "responses": [
+                "Epilepsy"
+            ]
+        },
+        {
+            "tag": "Warapa",
+            "patterns": [
+                "Ijagba, iporuru igba diẹ, awọn ìráníyè wiwo"
+            ],
+            "responses": [
+                "Warapa"
+            ]
+        },
+        {
+            "tag": "Whooping Cough",
+            "patterns": [
+                "Severe coughing fits, whooping sound when inhaling, vomiting after coughing, exhaustion"
+            ],
+            "responses": [
+                "Whooping Cough"
+            ]
+        },
+        {
+            "tag": "Ikọ aláìdúró",
+            "patterns": [
+                "Ikọ aláìdúró ti o lagbara, ohun gbigbo nigba mimi sinu, eebi lẹhin ikọ, irẹwẹsi"
+            ],
+            "responses": [
+                "Ikọ aláìdúró"
+            ]
+        },
+        {
+            "tag": "Migraine",
+            "patterns": [
+                "Severe headache, nausea, light sensitivity"
+            ],
+            "responses": [
+                "Migraine"
+            ]
+        },
+        {
+            "tag": "Migraine",
+            "patterns": [
+                "orififo nla, ríru, ifamọ ina"
+            ],
+            "responses": [
+                "Migraine"
+            ]
+        },
+        {
+            "tag": "Emphysema",
+            "patterns": [
+                "Shortness of breath, chronic cough, fatigue"
+            ],
+            "responses": [
+                "Emphysema"
+            ]
+        },
+        {
+            "tag": "Emphysema",
+            "patterns": [
+                "Kukuru ìmí, Ikọ aláìdúró onibaje, rirẹ"
+            ],
+            "responses": [
+                "Emphysema"
+            ]
+        },
+        {
+            "tag": "Chronic Obstructive Pulmonary Disease (COPD)",
+            "patterns": [
+                "Shortness of breath, chronic cough, wheezing"
+            ],
+            "responses": [
+                "Chronic Obstructive Pulmonary Disease (COPD)"
+            ]
+        },
+        {
+            "tag": "Arun Idena Ẹdọforo (COPD)",
+            "patterns": [
+                "Kukuru ẹmi, Ikọ aláìdúró onibaje, mimi"
+            ],
+            "responses": [
+                "Arun Idena Ẹdọforo (COPD)"
+            ]
+        },
+        {
+            "tag": "Heart Failure",
+            "patterns": [
+                "Shortness of breath, swelling in legs, fatigue"
+            ],
+            "responses": [
+                "Heart Failure"
+            ]
+        },
+        {
+            "tag": "Ikuna Okan",
+            "patterns": [
+                "Kukuru ẹmi, wiwu ni awọn ẹsẹ, rirẹ"
+            ],
+            "responses": [
+                "Ikuna Okan"
+            ]
+        },
+        {
+            "tag": "Epstein-Barr Virus (EBV)",
+            "patterns": [
+                "Similar to mono: fever, fatigue, sore throat, swollen lymph nodes"
+            ],
+            "responses": [
+                "Epstein-Barr Virus (EBV)"
+            ]
+        },
+        {
+            "tag": "Kokoro Epstein-Barr (EBV)",
+            "patterns": [
+                "Iru si eyọkan: iba, rirẹ, ọfun ọfun, wiwu ọgbẹ"
+            ],
+            "responses": [
+                "Kokoro Epstein-Barr (EBV)"
+            ]
+        },
+        {
+            "tag": "Zygomycosis (Mucormycosis)",
+            "patterns": [
+                "Sinus pain, facial swelling, black lesions, fever, cough, chest pain"
+            ],
+            "responses": [
+                "Zygomycosis (Mucormycosis)"
+            ]
+        },
+        {
+            "tag": "Zygomycosis (Mucormycosis)",
+            "patterns": [
+                "Irora sinus, wiwu oju, awọn egbo dudu, iba, Ikọ aláìdúró, irora àyà"
+            ],
+            "responses": [
+                "Zygomycosis (Mucormycosis)"
+            ]
+        },
+        {
+            "tag": "Alternaria alternata infection",
+            "patterns": [
+                "Sinusitis, asthma exacerbation, skin lesions, keratitis"
+            ],
+            "responses": [
+                "Alternaria alternata infection"
+            ]
+        },
+        {
+            "tag": "Alternaria alternata ikolu",
+            "patterns": [
+                "Sinusitis, ikọ-fèé exacerbation, awọn egbo ara, keratitis"
+            ],
+            "responses": [
+                "Alternaria alternata ikolu"
+            ]
+        },
+        {
+            "tag": "Ochroconis gallopava infection",
+            "patterns": [
+                "Sinusitis, brain abscesses, respiratory infections"
+            ],
+            "responses": [
+                "Ochroconis gallopava infection"
+            ]
+        },
+        {
+            "tag": "Ochroconis gallopava ikolu",
+            "patterns": [
+                "Sinusitis, abscesses ọpọlọ, awọn akoran ti atẹgun"
+            ],
+            "responses": [
+                "Ochroconis gallopava ikolu"
+            ]
+        },
+        {
+            "tag": "Nigrospora sphaerica infection",
+            "patterns": [
+                "Sinusitis, keratitis, skin infections"
+            ],
+            "responses": [
+                "Nigrospora sphaerica infection"
+            ]
+        },
+        {
+            "tag": "Nigrospora sphaerica ikolu",
+            "patterns": [
+                "Sinusitis, keratitis, àkóràn awọ ara"
+            ],
+            "responses": [
+                "Nigrospora sphaerica ikolu"
+            ]
+        },
+        {
+            "tag": "Nigrospora infection",
+            "patterns": [
+                "Sinusitis, keratitis, skin lesions"
+            ],
+            "responses": [
+                "Nigrospora infection"
+            ]
+        },
+        {
+            "tag": "Nigrospora ikolu",
+            "patterns": [
+                "Sinusitis, keratitis, awọn egbo awọ ara"
+            ],
+            "responses": [
+                "Nigrospora ikolu"
+            ]
+        },
+        {
+            "tag": "Curvularia lunata infection",
+            "patterns": [
+                "Sinusitis, keratitis, skin lesions, brain abscesses"
+            ],
+            "responses": [
+                "Curvularia lunata infection"
+            ]
+        },
+        {
+            "tag": "Curvularia lunata ikolu",
+            "patterns": [
+                "Sinusitis, keratitis, awọn egbo awọ ara, abscesses ọpọlọ"
+            ],
+            "responses": [
+                "Curvularia lunata ikolu"
+            ]
+        },
+        {
+            "tag": "Actinomucor elegans infection",
+            "patterns": [
+                "Sinusitis, pneumonia, skin lesions"
+            ],
+            "responses": [
+                "Actinomucor elegans infection"
+            ]
+        },
+        {
+            "tag": "Actinomucor elegans ikolu",
+            "patterns": [
+                "Sinusitis, pneumonia, awọn egbo awọ ara"
+            ],
+            "responses": [
+                "Actinomucor elegans ikolu"
+            ]
+        },
+        {
+            "tag": "Chaetomium infection",
+            "patterns": [
+                "Sinusitis, pneumonia, skin lesions, brain abscesses"
+            ],
+            "responses": [
+                "Chaetomium infection"
+            ]
+        },
+        {
+            "tag": "Chaetomium ikolu",
+            "patterns": [
+                "Sinusitis, pneumonia, awọn egbo awọ ara, abscesses ọpọlọ"
+            ],
+            "responses": [
+                "Chaetomium ikolu"
+            ]
+        },
+        {
+            "tag": "Apophysomyces infection",
+            "patterns": [
+                "Sinusitis, skin infections, brain abscesses"
+            ],
+            "responses": [
+                "Apophysomyces infection"
+            ]
+        },
+        {
+            "tag": "Apophysomyces ikolu",
+            "patterns": [
+                "Sinusitis, àkóràn awọ ara, abscesses ọpọlọ"
+            ],
+            "responses": [
+                "Apophysomyces ikolu"
+            ]
+        },
+        {
+            "tag": "Syncephalastrum infection",
+            "patterns": [
+                "Sinusitis, skin infections, disseminated infections"
+            ],
+            "responses": [
+                "Syncephalastrum infection"
+            ]
+        },
+        {
+            "tag": "Àkóràn Syncephalastrum",
+            "patterns": [
+                "Sinusitis, awọn akoran awọ-ara, awọn akoran ti o tan kaakiri"
+            ],
+            "responses": [
+                "Àkóràn Syncephalastrum"
+            ]
+        },
+        {
+            "tag": "Lichtheimia infection",
+            "patterns": [
+                "Sinusitis, skin infections, pulmonary infections, brain abscesses"
+            ],
+            "responses": [
+                "Lichtheimia infection"
+            ]
+        },
+        {
+            "tag": "Lichtheimia ikolu",
+            "patterns": [
+                "Sinusitis, àkóràn awọ ara, àkóràn ẹdọforo, abscesses ọpọlọ"
+            ],
+            "responses": [
+                "Lichtheimia ikolu"
+            ]
+        },
+        {
+            "tag": "Drechslera infection",
+            "patterns": [
+                "Sinusitis, skin lesions, keratitis, brain abscesses"
+            ],
+            "responses": [
+                "Drechslera infection"
+            ]
+        },
+        {
+            "tag": "Drechslera ikolu",
+            "patterns": [
+                "Sinusitis, awọn egbo awọ ara, keratitis, abscesses ọpọlọ"
+            ],
+            "responses": [
+                "Drechslera ikolu"
+            ]
+        },
+        {
+            "tag": "Ulocladium chartarum infection",
+            "patterns": [
+                "Sinusitis, skin lesions, respiratory infections"
+            ],
+            "responses": [
+                "Ulocladium chartarum infection"
+            ]
+        },
+        {
+            "tag": "Ulocladium chartarum ikolu",
+            "patterns": [
+                "Sinusitis, awọn ọgbẹ awọ ara, awọn akoran atẹgun"
+            ],
+            "responses": [
+                "Ulocladium chartarum ikolu"
+            ]
+        },
+        {
+            "tag": "Cylindrocarpon infection",
+            "patterns": [
+                "Skin infections, onychomycosis, respiratory infections"
+            ],
+            "responses": [
+                "Cylindrocarpon infection"
+            ]
+        },
+        {
+            "tag": "Cylindrocarpon ikolu",
+            "patterns": [
+                "Awọn akoran awọ ara, onychomycosis, awọn akoran atẹgun"
+            ],
+            "responses": [
+                "Cylindrocarpon ikolu"
+            ]
+        },
+        {
+            "tag": "Rhodotorula infection",
+            "patterns": [
+                "Skin lesions, bloodstream infections, respiratory infections"
+            ],
+            "responses": [
+                "Rhodotorula infection"
+            ]
+        },
+        {
+            "tag": "Rhodatorula ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, awọn akoran ẹjẹ, awọn akoran atẹgun"
+            ],
+            "responses": [
+                "Rhodatorula ikolu"
+            ]
+        },
+        {
+            "tag": "Exophiala infection",
+            "patterns": [
+                "Skin lesions, brain abscesses, sinusitis, subcutaneous nodules"
+            ],
+            "responses": [
+                "Exophiala infection"
+            ]
+        },
+        {
+            "tag": "Exophiala ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, abscesses ọpọlọ, sinusitis, awọn nodules subcutaneous"
+            ],
+            "responses": [
+                "Exophiala ikolu"
+            ]
+        },
+        {
+            "tag": "Rhinocladiella infection",
+            "patterns": [
+                "Skin lesions, brain abscesses, subcutaneous nodules"
+            ],
+            "responses": [
+                "Rhinocladiella infection"
+            ]
+        },
+        {
+            "tag": "Rhinocladiella ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, abscesses ọpọlọ, awọn nodules subcutaneous"
+            ],
+            "responses": [
+                "Rhinocladiella ikolu"
+            ]
+        },
+        {
+            "tag": "Acremonium strictum infection",
+            "patterns": [
+                "Skin lesions, eye infections, pneumonia, disseminated infections"
+            ],
+            "responses": [
+                "Acremonium strictum infection"
+            ]
+        },
+        {
+            "tag": "Acreamonium strictum ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, awọn akoran oju, pneumonia, awọn akoran ti a tan kaakiri"
+            ],
+            "responses": [
+                "Acreamonium strictum ikolu"
+            ]
+        },
+        {
+            "tag": "Human Herpesvirus 8 (HHV-8)",
+            "patterns": [
+                "Skin lesions, fever, night sweats, weight loss, swollen lymph nodes"
+            ],
+            "responses": [
+                "Human Herpesvirus 8 (HHV-8)"
+            ]
+        },
+        {
+            "tag": "Herpesvirus eniyan 8 (HHV-8)",
+            "patterns": [
+                "Awọn egbo awọ ara, iba, lagun alẹ, pipadanu iwuwo, awọn ọmu ti o wú"
+            ],
+            "responses": [
+                "Herpesvirus eniyan 8 (HHV-8)"
+            ]
+        },
+        {
+            "tag": "Phialemonium infection",
+            "patterns": [
+                "Skin lesions, keratitis, pneumonia, disseminated infections"
+            ],
+            "responses": [
+                "Phialemonium infection"
+            ]
+        },
+        {
+            "tag": "Phialemonium ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, keratitis, pneumonia, awọn akoran ti o tan kaakiri"
+            ],
+            "responses": [
+                "Phialemonium ikolu"
+            ]
+        },
+        {
+            "tag": "Chaetomium globosum infection",
+            "patterns": [
+                "Skin lesions, nail infections, respiratory infections"
+            ],
+            "responses": [
+                "Chaetomium globosum infection"
+            ]
+        },
+        {
+            "tag": "Chaetomium globosum ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, awọn akoran eekanna, awọn akoran atẹgun"
+            ],
+            "responses": [
+                "Chaetomium globosum ikolu"
+            ]
+        },
+        {
+            "tag": "Sporobolomyces infection",
+            "patterns": [
+                "Skin lesions, respiratory infections, bloodstream infections"
+            ],
+            "responses": [
+                "Sporobolomyces infection"
+            ]
+        },
+        {
+            "tag": "Sporobolomyces ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, awọn akoran atẹgun, awọn akoran ẹjẹ"
+            ],
+            "responses": [
+                "Sporobolomyces ikolu"
+            ]
+        },
+        {
+            "tag": "Aureobasidium pullulans infection",
+            "patterns": [
+                "Skin lesions, respiratory infections, disseminated infections"
+            ],
+            "responses": [
+                "Aureobasidium pullulans infection"
+            ]
+        },
+        {
+            "tag": "Aureobasidium pullulans ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, awọn akoran atẹgun, awọn akoran ti a tan kaakiri"
+            ],
+            "responses": [
+                "Aureobasidium pullulans ikolu"
+            ]
+        },
+        {
+            "tag": "Fusariosis",
+            "patterns": [
+                "Skin lesions, sinus infection, fever, eye infections, disseminated infections"
+            ],
+            "responses": [
+                "Fusariosis"
+            ]
+        },
+        {
+            "tag": "Fusariosis",
+            "patterns": [
+                "Awọn egbo awọ ara, ikolu sinus, iba, awọn akoran oju, awọn akoran ti a tan kaakiri"
+            ],
+            "responses": [
+                "Fusariosis"
+            ]
+        },
+        {
+            "tag": "Fusarium moniliforme infection",
+            "patterns": [
+                "Skin lesions, sinusitis, keratitis, disseminated infections"
+            ],
+            "responses": [
+                "Fusarium moniliforme infection"
+            ]
+        },
+        {
+            "tag": "Fusarium moniliforme ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, sinusitis, keratitis, awọn akoran ti o tan kaakiri"
+            ],
+            "responses": [
+                "Fusarium moniliforme ikolu"
+            ]
+        },
+        {
+            "tag": "Cladosporium cladosporioides infection",
+            "patterns": [
+                "Skin lesions, sinusitis, respiratory infections"
+            ],
+            "responses": [
+                "Cladosporium cladosporioides infection"
+            ]
+        },
+        {
+            "tag": "Cladosporium cladosporioides ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, sinusitis, awọn akoran atẹgun"
+            ],
+            "responses": [
+                "Cladosporium cladosporioides ikolu"
+            ]
+        },
+        {
+            "tag": "Phialophora infection",
+            "patterns": [
+                "Skin lesions, subcutaneous nodules, brain abscesses"
+            ],
+            "responses": [
+                "Phialophora infection"
+            ]
+        },
+        {
+            "tag": "Ipa phialophora",
+            "patterns": [
+                "Awọn egbo awọ ara, awọn nodules subcutaneous, abscesses ọpọlọ"
+            ],
+            "responses": [
+                "Ipa phialophora"
+            ]
+        },
+        {
+            "tag": "Pleurostomophora infection",
+            "patterns": [
+                "Skin lesions, subcutaneous nodules, sinusitis"
+            ],
+            "responses": [
+                "Pleurostomophora infection"
+            ]
+        },
+        {
+            "tag": "Pleurostomophora ikolu",
+            "patterns": [
+                "Awọn egbo awọ ara, awọn nodules subcutaneous, sinusitis"
+            ],
+            "responses": [
+                "Pleurostomophora ikolu"
+            ]
+        },
+        {
+            "tag": "Sporotrichosis",
+            "patterns": [
+                "Skin ulcers, nodules, red bumps, lymph node swelling"
+            ],
+            "responses": [
+                "Sporotrichosis"
+            ]
+        },
+        {
+            "tag": "Sporotrichosis",
+            "patterns": [
+                "Awọn ọgbẹ awọ ara, awọn nodules, awọn bumps pupa, wiwu ọra-ara"
+            ],
+            "responses": [
+                "Sporotrichosis"
+            ]
+        },
+        {
+            "tag": "Strep Throat",
+            "patterns": [
+                "Sore throat, difficulty swallowing, red and swollen tonsils, fever, headache, rash"
+            ],
+            "responses": [
+                "Strep Throat"
+            ]
+        },
+        {
+            "tag": "Strep ọfun",
+            "patterns": [
+                "Ọfun ọgbẹ, iṣoro gbigbe, oju wiwú, iba, ori fifo, oju sisu"
+            ],
+            "responses": [
+                "Strep ọfun"
+            ]
+        },
+        {
+            "tag": "Diphtheria",
+            "patterns": [
+                "Sore throat, fever, swollen glands, weakness, thick gray membrane covering throat and tonsils"
+            ],
+            "responses": [
+                "Diphtheria"
+            ]
+        },
+        {
+            "tag": "Diphtheria",
+            "patterns": [
+                "Ọfun ọgbẹ, iba, awọn keekeke ti o wú, ailera, awọ awọ grẹy ti o nipọn ti o bo ọfun ati awọn tonsils"
+            ],
+            "responses": [
+                "Diphtheria"
+            ]
+        },
+        {
+            "tag": "Basidiobolomycosis",
+            "patterns": [
+                "Subcutaneous nodules, gastrointestinal symptoms, fever"
+            ],
+            "responses": [
+                "Basidiobolomycosis"
+            ]
+        },
+        {
+            "tag": "Basidiobolomycosis",
+            "patterns": [
+                "Awọn nodules subcutaneous, awọn aami aisan inu ikun, iba"
+            ],
+            "responses": [
+                "Basidiobolomycosis"
+            ]
+        },
+        {
+            "tag": "Entomophthoramycosis",
+            "patterns": [
+                "Subcutaneous nodules, nasal congestion, facial swelling"
+            ],
+            "responses": [
+                "Entomophthoramycosis"
+            ]
+        },
+        {
+            "tag": "Entomophthoramycosis",
+            "patterns": [
+                "Awọn nodules subcutaneous, imu imu, wiwu oju"
+            ],
+            "responses": [
+                "Entomophthoramycosis"
+            ]
+        },
+        {
+            "tag": "Meningococcal disease",
+            "patterns": [
+                "Sudden fever, headache, stiff neck, nausea, vomiting, sensitivity to light, confusion, rash"
+            ],
+            "responses": [
+                "Meningococcal disease"
+            ]
+        },
+        {
+            "tag": "Arun meningococcal",
+            "patterns": [
+                "Iba lojiji, orififo, ọrùn lile, ríru, ìgbagbogbo, ifamọ si imọlẹ, iporuru, sisu"
+            ],
+            "responses": [
+                "Arun meningococcal"
+            ]
+        },
+        {
+            "tag": "Herpangina",
+            "patterns": [
+                "Sudden fever, sore throat, headache, painful blisters on tonsils and roof of mouth"
+            ],
+            "responses": [
+                "Herpangina"
+            ]
+        },
+        {
+            "tag": "Herpangina",
+            "patterns": [
+                "Iba lojiji, ọfun ọfun, orififo, roro irora lori tonsils ati oke ẹnu"
+            ],
+            "responses": [
+                "Herpangina"
+            ]
+        },
+        {
+            "tag": "Stroke",
+            "patterns": [
+                "Sudden numbness, confusion, trouble speaking"
+            ],
+            "responses": [
+                "Stroke"
+            ]
+        },
+        {
+            "tag": "Ọpọlọ",
+            "patterns": [
+                "Ibanujẹ lojiji, rudurudu, wahala sisọ"
+            ],
+            "responses": [
+                "Ọpọlọ"
+            ]
+        },
+        {
+            "tag": "Madura foot",
+            "patterns": [
+                "Swelling, deformity, discharging sinuses, pain"
+            ],
+            "responses": [
+                "Madura foot"
+            ]
+        },
+        {
+            "tag": "Madura ẹsẹ",
+            "patterns": [
+                "Wiwu, idibajẹ, awọn sinuses ti njade, irora"
+            ],
+            "responses": [
+                "Madura ẹsẹ"
+            ]
+        },
+        {
+            "tag": "Mycetoma",
+            "patterns": [
+                "Swelling, painless nodules, drainage, deformity, sinuses discharging grains"
+            ],
+            "responses": [
+                "Mycetoma"
+            ]
+        },
+        {
+            "tag": "Mycetoma",
+            "patterns": [
+                "Wiwu, awọn nodules ti ko ni irora, idominugere, ibajẹ, awọn sinuses ti n ṣaja awọn irugbin"
+            ],
+            "responses": [
+                "Mycetoma"
+            ]
+        },
+        {
+            "tag": "Lymphoma",
+            "patterns": [
+                "Swollen lymph nodes, fatigue, fever"
+            ],
+            "responses": [
+                "Lymphoma"
+            ]
+        },
+        {
+            "tag": "Lymphoma",
+            "patterns": [
+                "Awọn apa ọgbẹ wiwu, rirẹ, iba"
+            ],
+            "responses": [
+                "Lymphoma"
+            ]
+        },
+        {
+            "tag": "Cat scratch disease",
+            "patterns": [
+                "Swollen lymph nodes, fever, fatigue, headache, blisters or bumps at the site of the scratch or bite"
+            ],
+            "responses": [
+                "Cat scratch disease"
+            ]
+        },
+        {
+            "tag": "o nran ibere arun",
+            "patterns": [
+                "Awọn apa ọgbẹ ti o ni wiwu, iba, rirẹ, orififo, roro tabi bumps ni aaye ti ibere tabi jáni"
+            ],
+            "responses": [
+                "o nran ibere arun"
+            ]
+        },
+        {
+            "tag": "Onychomycosis",
+            "patterns": [
+                "Thickened, discolored nails, brittle or crumbly nails, separation from nail bed"
+            ],
+            "responses": [
+                "Onychomycosis"
+            ]
+        },
+        {
+            "tag": "Onychomycosis",
+            "patterns": [
+                "Awọn eekanna ti o nipọn, awọn eekanna ti ko ni awọ, awọn eekanna brittle tabi crumbly, Iyapa lati àlàfo ibusun"
+            ],
+            "responses": [
+                "Onychomycosis"
+            ]
+        },
+        {
+            "tag": "Parkinson's Disease",
+            "patterns": [
+                "Tremors, stiffness, slow movement"
+            ],
+            "responses": [
+                "Parkinson's Disease"
+            ]
+        },
+        {
+            "tag": "Arun Pakinsini",
+            "patterns": [
+                "Iwariri, lile, gbigbe lọra"
+            ],
+            "responses": [
+                "Arun Pakinsini"
+            ]
+        },
+        {
+            "tag": "Melanoma",
+            "patterns": [
+                "Unusual moles, changes in skin appearance"
+            ],
+            "responses": [
+                "Melanoma"
+            ]
+        },
+        {
+            "tag": "Melanoma",
+            "patterns": [
+                "Moles dani, awọn ayipada ninu irisi awọ ara"
+            ],
+            "responses": [
+                "Melanoma"
+            ]
+        },
+        {
+            "tag": "Chromoblastomycosis",
+            "patterns": [
+                "Warty skin lesions, nodules, scaly patches, ulceration"
+            ],
+            "responses": [
+                "Chromoblastomycosis"
+            ]
+        },
+        {
+            "tag": "Chromoblastomycosis",
+            "patterns": [
+                "Warty ara egbo, nodules, scaly abulẹ, ulceration"
+            ],
+            "responses": [
+                "Chromoblastomycosis"
+            ]
+        },
+        {
+            "tag": "Cholera",
+            "patterns": [
+                "Watery diarrhea, dehydration, vomiting, rapid heart rate, low blood pressure"
+            ],
+            "responses": [
+                "Cholera"
+            ]
+        },
+        {
+            "tag": "Arun kolera",
+            "patterns": [
+                "Igbẹ gbuuru omi, gbigbẹ ìgbagbogbo, oṣuwọn okan nsare, titẹ ẹjẹ kekere"
+            ],
+            "responses": [
+                "Arun kolera"
+            ]
+        },
+        {
+            "tag": "Clostridium difficile infection",
+            "patterns": [
+                "Watery diarrhea, fever, loss of appetite, nausea, abdominal pain, colitis"
+            ],
+            "responses": [
+                "Clostridium difficile infection"
+            ]
+        },
+        {
+            "tag": "Clostridium difficile infection",
+            "patterns": [
+                "Igbẹ gbuuru omi, iba, isonu ti ounjẹ, ríru, irora inu, colitis"
+            ],
+            "responses": [
+                "Clostridium difficile infection"
+            ]
+        },
+        {
+            "tag": "Human T-lymphotropic Virus (HTLV)",
+            "patterns": [
+                "Weakness, fatigue, muscle pain, rash"
+            ],
+            "responses": [
+                "Human T-lymphotropic Virus (HTLV)"
+            ]
+        },
+        {
+            "tag": "Kokoro T-lymphotropic eniyan (HTLV)",
+            "patterns": [
+                "Ailagbara, rirẹ, irora iṣan, oru sisu"
+            ],
+            "responses": [
+                "Kokoro T-lymphotropic eniyan (HTLV)"
+            ]
+        },
+        {
+            "tag": "Progressive Multifocal Leukoencephalopathy (PML)",
+            "patterns": [
+                "Weakness, vision problems, cognitive changes"
+            ],
+            "responses": [
+                "Progressive Multifocal Leukoencephalopathy (PML)"
+            ]
+        },
+        {
+            "tag": "Leukoencephalopathy Multifocal Onitẹsiwaju (PML)",
+            "patterns": [
+                "Weakness, vision problems, cognitive changes"
+            ],
+            "responses": [
+                "Leukoencephalopathy Multifocal Onitẹsiwaju (PML)"
+            ]
+        },
+        {
+            "tag": "JC Virus",
+            "patterns": [
+                "Weakness, vision problems, speech difficulties, cognitive decline"
+            ],
+            "responses": [
+                "JC Virus"
+            ]
+        },
+        {
+            "tag": "Kòkòrò àrùn fáírọ́ọ̀sì JC",
+            "patterns": [
+                "Ailagbara, awọn iṣoro iran, awọn iṣoro ọrọ, idinku imọ"
+            ],
+            "responses": [
+                "Kòkòrò àrùn fáírọ́ọ̀sì JC"
+            ]
+        },
+        {
+            "tag": "Hyperthyroidism",
+            "patterns": [
+                "Weight loss, rapid heartbeat, nervousness"
+            ],
+            "responses": [
+                "Hyperthyroidism"
+            ]
+        },
+        {
+            "tag": "Hyperthyroidism",
+            "patterns": [
+                "Pipadanu iwuwo, iyara ọkan, aifọkanbalẹ"
+            ],
+            "responses": [
+                "Hyperthyroidism"
+            ]
+        },
+        {
+            "tag": "Asthma",
+            "patterns": [
+                "Wheezing, shortness of breath, chest tightness"
+            ],
+            "responses": [
+                "Asthma"
+            ]
+        },
+        {
+            "tag": "Asthma",
+            "patterns": [
+                "Mimi, kukuru ti ẹmi, wiwọ àyà"
+            ],
+            "responses": [
+                "Asthma"
+            ]
+        }
+    ]
+}
